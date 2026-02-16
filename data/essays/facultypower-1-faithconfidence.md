@@ -1,0 +1,7 @@
+Faith in Buddhism might surprise you—it's not about blind belief, but rather a confident trust based on understanding and experience. The Pali word "saddha" literally means "to place one's heart upon" something, like how you might trust a dear friend or rely on a sturdy bridge.
+
+Think of learning to ride a bicycle. At first, you need faith that the bike will support you and that balance is possible, even though you can't yet prove it to yourself. This initial confidence motivates you to keep practicing despite wobbles and falls. As your skill grows, that faith transforms into direct knowledge—you know you can ride because you're doing it.
+
+Saddha works similarly on the Buddhist path. It begins as confidence in the Buddha's teachings and the possibility of liberation from suffering. This isn't wishful thinking, but a reasoned trust that inspires you to meditate, practice kindness, and cultivate wisdom. As you progress, you start experiencing the benefits firsthand—perhaps feeling more peaceful, less reactive, or more compassionate.
+
+This faculty of faith is considered both a spiritual faculty and power because it energizes all other aspects of practice. Without some initial confidence that the path leads somewhere meaningful, why would you persist through challenges? Yet as your practice deepens, direct experience gradually replaces faith, creating an upward spiral of understanding and commitment that carries you toward awakening.

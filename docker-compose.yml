@@ -1,0 +1,21 @@
+# Docker Compose for Buddhist Dhammas MongoDB
+# Spins up a MongoDB 7.x instance on localhost:27017
+# Usage: docker compose up -d
+# To reset: docker compose down -v (deletes data volume)
+
+services:
+  mongodb:
+    image: mongo:7
+    container_name: buddhist-dhammas-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    # No auth for local dev — add MONGO_INITDB_ROOT_USERNAME/PASSWORD for production
+    environment:
+      MONGO_INITDB_DATABASE: buddhist_dhammas
+
+volumes:
+  mongo_data:
+    driver: local

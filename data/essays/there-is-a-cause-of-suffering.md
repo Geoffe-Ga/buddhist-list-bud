@@ -1,0 +1,7 @@
+Imagine you're dealing with a persistent headache. You wouldn't just keep taking painkillers forever—you'd want to discover what's causing it. Maybe it's dehydration, stress, or poor posture. The Buddha approached human suffering with this same practical wisdom, teaching us that our pain and dissatisfaction always have identifiable roots.
+
+This is the Second Noble Truth, known in Pali as *samudaya*, which literally means "arising" or "coming together." It's like watching storm clouds gather—we can trace how conditions accumulate to create the tempest. The Buddha identified craving or thirst (*tanha*) as the primary cause of our suffering. This isn't just wanting things we don't have, but our entire relationship with experience—craving pleasure, pushing away discomfort, and desperately wanting life to be permanent when everything is constantly changing.
+
+Think about how you feel when your favorite restaurant changes its menu, or when a wonderful vacation ends. That sense of dissatisfaction arises because we're fighting against life's natural flow of change. We suffer not because change happens, but because we resist it.
+
+This teaching offers tremendous hope. If suffering has a cause, then by understanding and addressing that cause, we can find freedom. It's like finally discovering that your headaches come from dehydration—suddenly you have the power to do something about them. The path to peace becomes not just possible, but practical.

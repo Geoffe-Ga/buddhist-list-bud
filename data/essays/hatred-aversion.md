@@ -1,0 +1,7 @@
+Imagine you're drinking your morning coffee and it tastes bitter, so you immediately push the cup away with a grimace. That instinctive pushing away is exactly what the Buddha meant by *dosa* (pronounced "DOH-sa"), a Pali word that literally means "hatred" or "aversion." It's that automatic urge we all have to reject, resist, or push away anything unpleasant.
+
+*Dosa* isn't just dramatic anger or hatred—it includes all those moments when we mentally or physically recoil from discomfort. When you hear nails on a chalkboard, feel frustrated in traffic, or even slightly annoyed by a buzzing fly, that's *dosa* at work. It's one of the most fundamental ways our minds react to life's inevitable unpleasantness.
+
+Think of *dosa* like a muscle that tightens whenever we encounter something we dislike. The more we automatically push away experiences, the more tense and reactive we become. This constant resistance actually creates more suffering because we're fighting against reality instead of learning to respond with wisdom.
+
+Understanding *dosa* is crucial because it reveals how much energy we waste in resistance. When we recognize this pattern in ourselves—without judgment—we can begin to soften that automatic pushing away. This doesn't mean becoming passive, but rather learning to meet life's challenges with a more open, skillful response. It's like learning to taste that bitter coffee without immediately rejecting it, staying present even with what's unpleasant.

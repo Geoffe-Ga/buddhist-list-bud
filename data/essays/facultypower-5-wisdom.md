@@ -1,0 +1,7 @@
+Picture yourself learning to drive a car. At first, you might grip the steering wheel tightly, following every rule precisely out of faith in your instructor. But as you gain experience, something beautiful happens—you develop wisdom. You begin to understand not just what to do, but why and when to apply different skills naturally.
+
+This is much like *pañña* (pronounced "pan-ya"), the fifth spiritual faculty in Buddhist practice. The word literally means "wisdom" or "understanding," but it's far richer than book knowledge. *Pañña* is the deep, experiential understanding that arises when we truly see how life works—how our actions create consequences, how attachment causes suffering, and how letting go brings peace.
+
+What makes *pañña* so special is how it balances with faith. Early in our spiritual journey, we might accept teachings on trust, just as you initially trusted your driving instructor. But wisdom allows us to verify these truths through our own experience. We begin to see impermanence in our daily lives, recognize how our mental habits create stress, and understand compassion not as a nice idea but as a practical response to our shared human condition.
+
+This faculty matters tremendously because wisdom transforms us from spiritual beginners following directions into practitioners who genuinely understand the path. It's wisdom that finally liberates us, helping us see through the illusions that keep us trapped in cycles of dissatisfaction and pointing us toward true freedom.

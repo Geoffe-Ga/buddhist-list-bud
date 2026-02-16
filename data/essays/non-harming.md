@@ -1,0 +1,7 @@
+At its heart, non-harming means choosing not to kill or cause physical harm to any living being. This beautiful principle, known in Pali as "Panatipata veramani," literally translates as "refraining from destroying life" or "abstaining from taking what breathes."
+
+Think of it like tending a garden with gentle hands. Just as a caring gardener works around the earthworms and relocates spiders rather than crushing them, we learn to move through life with awareness and compassion. This might mean catching that fly in a glass to release it outdoors, choosing not to swat mosquitoes, or simply watching where we step on a nature walk.
+
+But non-harming extends beyond dramatic moments—it's woven into daily choices like what we eat, how we speak to others, and even our thoughts. When we practice this precept, we're cultivating a mind that naturally gravitates toward kindness rather than violence.
+
+Why does this matter for our spiritual journey? Every time we choose gentleness over harm, we're training our hearts in compassion and our minds in mindfulness. We begin to see the interconnectedness of all life, recognizing that the same desire to be safe and happy that lives in us also lives in every creature we encounter. This growing sensitivity becomes a foundation for wisdom, helping us understand that true peace begins with how we treat the world around us.

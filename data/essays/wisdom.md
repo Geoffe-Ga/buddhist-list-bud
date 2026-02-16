@@ -1,0 +1,7 @@
+Wisdom in Buddhism isn't about being intellectually clever or having lots of book knowledge. Instead, it's a deep, clear seeing of reality as it truly is, without the filters of our wishful thinking or fears. The Pali word is *pañña*, which literally means "understanding" or "discernment" – the ability to distinguish between what's real and what's illusion.
+
+Think of it like finally getting your prescription glasses after years of squinting. Suddenly, you can see clearly what was always there – the sharp edges of leaves, the details in faces, the true colors of things. Buddhist wisdom works similarly for our inner vision. We begin to see clearly how our thoughts and emotions actually work, how nothing stays the same forever, and how our suffering often comes from fighting against this natural flow of change.
+
+This clear seeing is one of the three essential trainings in Buddhism, alongside ethical conduct and meditation. It's not something you achieve through study alone, but through patient observation of your own experience. When you notice how your anger dissolves on its own, or how attachment to outcomes creates stress, you're developing *pañña*.
+
+This wisdom matters because it gradually frees us from the confusion that keeps us trapped in cycles of dissatisfaction. Like a gentle sunrise, it illuminates the path forward with compassion and understanding.

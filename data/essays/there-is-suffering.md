@@ -1,0 +1,7 @@
+Imagine sitting with a dear friend who gently points out something you've always known but never quite put into words: life contains suffering. This is the Buddha's First Noble Truth, expressed in Pali as "Dukkha," which literally means "difficult to bear" or "hard to endure."
+
+Dukkha isn't just about dramatic tragedies or major losses, though it certainly includes those. Think about the subtle discomfort you feel when your favorite song ends, the anxiety before an important meeting, or even the restlessness that creeps in during a perfect vacation day. There's a quality of unsatisfactoriness woven into our experience – sometimes like a splinter we can't quite locate, other times like a wave that knocks us over.
+
+The Buddha identified three types of dukkha: obvious suffering like illness and death, the suffering that comes from things constantly changing, and a deeper unease that exists simply because we're always trying to find solid ground in a shifting world.
+
+Now, before this sounds depressing, here's the beautiful part: recognizing dukkha isn't meant to make us pessimistic. It's like a doctor's honest diagnosis – the first essential step toward healing. When we stop pretending everything should always feel good, we can finally address what's actually happening and find our way to genuine peace. This recognition opens the door to freedom.

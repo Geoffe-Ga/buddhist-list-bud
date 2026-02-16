@@ -1,0 +1,7 @@
+Imagine wanting something so deeply that it naturally energizes everything you do—this is the essence of the first Base of Power in Buddhist practice. The Pali word "chanda" literally means "desire" or "aspiration," but not the grasping kind that causes suffering. Instead, this is the wholesome longing that motivates spiritual growth, like a plant naturally reaching toward sunlight.
+
+Think of learning to play a musical instrument. Without genuine desire to create beautiful music, practice becomes drudgery. But when that spark of aspiration is alive, you find yourself naturally drawn to practice, even when it's challenging. This is chanda in action—a positive force that sustains effort without strain.
+
+In Buddhist practice, chanda is the heartfelt wish for freedom from suffering, both for yourself and others. It's what gets you up early to meditate, what keeps you mindful during difficult moments, and what makes you genuinely curious about the Buddha's teachings. This isn't willpower forcing yourself through spiritual exercises, but rather an inner magnetism drawing you forward.
+
+This aspiration matters tremendously because without it, meditation and ethical living become mere obligations. But when chanda is present, the spiritual path feels alive and meaningful. You're not practicing because you "should," but because something deep within recognizes the possibility of genuine peace and wisdom. This desire becomes the foundation upon which all other spiritual development rests.

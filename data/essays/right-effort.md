@@ -1,0 +1,7 @@
+Right Effort is like being a wise gardener who knows exactly how much energy to put into tending their garden—not so little that weeds take over, but not so much that they exhaust themselves and give up entirely. In the Buddhist path, this balanced approach to energy is called "Samma Vayama" in the ancient Pali language, where "samma" means "right" or "complete," and "vayama" means "effort" or "exertion."
+
+Think of learning to play a musical instrument. If you practice too intensely, you might burn out or injure yourself. Too casually, and you never improve. Right Effort means finding that sweet spot where you're engaged and persistent without being harsh or forcing things. It's the steady, sustainable energy that keeps you showing up day after day.
+
+In Buddhist practice, Right Effort involves four aspects: preventing unwholesome thoughts from arising, abandoning those that have already appeared, cultivating wholesome thoughts, and maintaining the good qualities you've developed. This isn't about gritting your teeth and powering through—it's about understanding that real transformation happens through consistent, gentle persistence.
+
+This teaching matters because awakening isn't something that happens to us passively. It requires our active participation, but with wisdom. Right Effort teaches us that the path forward is paved with patient, steady steps rather than dramatic leaps, helping us develop the sustainable momentum needed for genuine spiritual growth.

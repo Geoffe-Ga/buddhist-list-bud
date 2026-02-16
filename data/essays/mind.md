@@ -1,0 +1,7 @@
+Imagine sitting quietly when suddenly a memory of your childhood home pops into awareness, or you find yourself planning tomorrow's grocery list. Where do these thoughts come from, and what perceives them? In Buddhism, we recognize mind as our sixth sense, just as real and important as sight, hearing, or touch.
+
+The Pali term "mano" literally means "mind" or "mental faculty," while "mano-dhamma" refers to mental objects – those thoughts, memories, emotions, and mental images that arise in consciousness. Think of your mind as an inner eye that observes the constant stream of mental activity flowing through awareness.
+
+Consider how you might watch clouds drifting across the sky. Similarly, the mind observes thoughts, feelings, and mental formations as they appear and dissolve. That worried thought about work, the happy memory of a friend's laugh, or even the intention to be kind – these are all mental objects perceived by this sixth sense.
+
+Understanding mind as a sense base is revolutionary because it helps us see thoughts and emotions not as solid facts, but as temporary mental events we can observe with gentle awareness. This insight becomes a doorway to freedom. When we recognize that we are not our thoughts but the awareness that perceives them, we begin to develop the mindful discernment that leads toward peace and liberation from mental suffering.

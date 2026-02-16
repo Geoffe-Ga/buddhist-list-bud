@@ -1,0 +1,7 @@
+Imagine sitting by a river, watching the water flow past. Each moment brings new water, and what you saw just seconds ago has already moved downstream, never to return exactly the same way again. This beautiful image captures what Buddhism calls impermanence, or *anicca* in the ancient Pali language, which literally means "not permanent" or "inconstant."
+
+Everything in our world follows this same pattern as the flowing river. Our thoughts and emotions arise and fade away. Our bodies change from childhood to old age. Even mountains eventually erode, and stars burn out after billions of years. Nothing conditioned by causes and circumstances remains static—everything is in constant flux.
+
+You might notice this in your own life when you feel frustrated that a happy moment can't last forever, or when you're surprised that an intense sadness eventually lifts. Perhaps you've returned to a childhood neighborhood only to find it completely transformed. These experiences point to the universal truth of impermanence.
+
+Understanding *anicca* deeply is transformative because it helps us stop fighting against life's natural rhythm of change. When we truly grasp that nothing lasts forever—neither our suffering nor our attachments—we begin to hold everything more lightly. This wisdom forms the foundation of Right View and opens our hearts to the peace that comes from accepting life as it actually is, rather than how we wish it would be.

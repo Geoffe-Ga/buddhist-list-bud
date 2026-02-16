@@ -1,0 +1,7 @@
+Imagine looking in the mirror and thinking, "This is me, this is who I really am" – pointing to your reflection as if it captured your complete, unchanging essence. This powerful illusion is what Buddhism calls "identity view," or in the ancient Pali language, *sakkaya-ditthi*. The word literally means "view of the existing body" or "belief in a personal body," referring to our deep conviction that somewhere within this collection of thoughts, feelings, and physical sensations exists a solid, permanent "self."
+
+Think of it like mistaking a river for a statue. We look at the flowing water – constantly moving and changing – but somehow convince ourselves we're seeing something fixed and solid. Similarly, we experience this ever-changing stream of consciousness, emotions, and bodily sensations, yet firmly believe there's an unchanging "me" at the center of it all.
+
+This identity view is considered the first of ten "fetters" – mental chains that keep us bound to cycles of suffering. It's like wearing invisible shackles that we don't even realize are there. When we cling tightly to ideas about who we are, we create resistance to life's natural flow of change, leading to frustration and pain.
+
+Understanding this teaching matters because it's the foundation for freedom. Once we begin to see through this illusion, we can start loosening our grip on rigid self-concepts and find peace in life's beautiful, flowing impermanence.

@@ -1,0 +1,7 @@
+Imagine someone who has become so deeply content and peaceful that they no longer crave sensual pleasures or harbor ill-will toward others. In Buddhism, we call such a person an "anagami" (ah-nah-GAH-mee), which literally means "non-returner" in the ancient Pali language. This beautiful term describes someone who has progressed so far spiritually that they will never again be reborn into our human world of suffering.
+
+Think of it like a skilled mountain climber who has ascended so high that they can never slip back down to the base camp. The non-returner has broken free from two powerful chains that bind most of us: sensual craving and hatred. They no longer desperately chase after pleasures like food, sex, or entertainment for happiness, nor do they harbor resentment or anger toward others.
+
+Picture someone who can enjoy a simple meal without craving something fancier, or who can genuinely wish well for someone who has hurt them. They've found such inner peace that external circumstances can't shake their equanimity.
+
+This stage matters tremendously because it represents near-complete freedom from the mental patterns that cause suffering. While most of us struggle daily with wanting things to be different or feeling irritated with people and situations, the non-returner has transcended these reactive patterns. They're just one step away from complete awakening, having found a profound contentment that doesn't depend on getting what they want.

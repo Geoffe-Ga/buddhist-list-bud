@@ -1,0 +1,7 @@
+Wisdom in Buddhism isn't about being clever or having lots of facts stored in your head. It's something much deeper and more transformative. The Pali word is "pañña" (pronounced pan-ya), which means penetrating insight or understanding that cuts through illusion to see things as they truly are.
+
+Think of it like the difference between reading about swimming and actually diving into water. You might know all the technical details about swimming strokes, but wisdom is the direct experience of being in the water, feeling its resistance, learning to move with its currents. Buddhist wisdom is this kind of direct, lived understanding of life's fundamental truths—especially seeing how everything changes, how our suffering often comes from clinging to things we can't control, and how the sense of a solid, permanent "self" is actually an illusion.
+
+This wisdom develops gradually through meditation and mindful living. As you observe your thoughts and feelings without judgment, you begin to see patterns you never noticed before. You start recognizing how your mind creates stories that cause unnecessary suffering.
+
+Wisdom is essential on the path to awakening because it's what finally frees us from the mental habits that keep us trapped in cycles of dissatisfaction. Unlike knowledge that you can forget, this wisdom becomes part of who you are, naturally guiding you toward greater peace and compassion.

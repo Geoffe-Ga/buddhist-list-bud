@@ -1,0 +1,7 @@
+Ethics in Buddhism is simply about living in a way that doesn't harm yourself or others. It's like tending a garden – you create the right conditions for beautiful things to grow. The Pali word for this is *sila*, which literally means "conduct" or "virtue," coming from a root that suggests something cool and peaceful.
+
+Think of *sila* like learning to drive carefully. Just as following traffic rules keeps everyone safe and helps traffic flow smoothly, ethical conduct creates harmony in our relationships and peace in our hearts. When we speak truthfully, act kindly, and avoid harming living beings, we're not following rigid commandments – we're choosing behaviors that naturally lead to happiness and inner calm.
+
+*Sila* forms one of the Three Trainings in Buddhism, working hand-in-hand with meditation and wisdom. It's actually the foundation that makes the other two possible. When our actions are wholesome, our minds become naturally more peaceful and concentrated. It's hard to meditate deeply if we're carrying guilt from harmful actions, just as it's difficult to see clearly through muddy water.
+
+The beautiful thing about Buddhist ethics is that it's not about perfection or harsh self-judgment. It's about gradually cultivating habits that bring genuine contentment. Each mindful choice to act with kindness is like planting seeds of peace that will bloom in ways you might never expect.

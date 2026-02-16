@@ -1,0 +1,7 @@
+Imagine the moment your fingertip touches a hot stove, or when your eyes first see a beautiful sunset, or when you hear your favorite song. That instant when your senses meet the world around you is what Buddhists call "contact." In Pali, the ancient language of early Buddhist texts, this is called *phassa*, which literally means "touching" or "meeting."
+
+Contact might seem simple, but the Buddha taught that it's actually a profound moment of creation. When your eye meets a flower, for instance, something entirely new comes into being – not just the physical meeting, but the conscious experience of seeing. It's like two people shaking hands – the handshake itself is something distinct from either person alone.
+
+The Buddha explained that contact happens through our six sense bases: seeing, hearing, smelling, tasting, touching, and thinking. Yes, even our thoughts "contact" mental objects like memories or ideas! Each moment of contact is conditioned by what came before and sets the stage for what follows – our feelings of pleasant, unpleasant, or neutral.
+
+Understanding contact helps us see how suffering begins. It's not the world itself that causes our pain, but how we react when our senses meet that world. By becoming aware of these moments of contact, we can learn to respond with wisdom rather than habit, gradually finding the freedom that leads to awakening.

@@ -1,0 +1,7 @@
+Truthfulness, known in Pali as *sacca*, forms one of the essential perfections on the Buddhist path. The word *sacca* comes from the root meaning "real" or "actual" – it's about aligning our words and actions with what is genuinely true, both outwardly and within ourselves.
+
+Think of truthfulness like being a clear window rather than a distorting funhouse mirror. When we practice *sacca*, we become transparent channels for reality, neither adding our own spin nor hiding inconvenient facts. This means speaking honestly with others, yes, but it goes deeper – it means being honest about our own motivations, fears, and limitations.
+
+Consider how liberating it feels when you can simply tell the truth about making a mistake at work, rather than crafting elaborate excuses. That moment of relief you experience hints at something profound: deception creates suffering, while truthfulness brings a natural ease and clarity to our relationships and inner life.
+
+In the Buddhist understanding, our journey toward awakening requires us to see things as they truly are, not as we wish them to be or fear they might be. When we cultivate truthfulness as a perfection, we're training ourselves to live in harmony with reality rather than fighting against it. This honest relationship with truth becomes the foundation for wisdom to grow, like rich soil allowing a tree to flourish naturally and strong.

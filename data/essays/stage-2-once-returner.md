@@ -1,0 +1,7 @@
+Imagine you're learning to ride a bicycle and you've moved beyond those first wobbly attempts. You're not falling off anymore, but you still need to come back for one more practice session before you can ride confidently anywhere. This beautifully captures the second stage of Buddhist awakening called "Once-Returner" in English.
+
+In the ancient Pali language, this stage is called *sakadagami*, which literally means "one who comes once more." The word breaks down into *saka* (once) and *agami* (coming). It describes someone who has made such significant spiritual progress that they will be reborn at most one more time before reaching complete liberation.
+
+What makes a Once-Returner special is that they've dramatically weakened two of our most persistent human struggles: sensual craving and ill-will. Think of someone who used to get swept away by every desire for pleasure or burst of anger, but now experiences these feelings like distant thunder rather than lightning strikes. They still arise, but without the same grip or intensity.
+
+This stage matters deeply because it shows us that real transformation is possible. The Once-Returner demonstrates that we don't have to remain prisoners of our impulses forever. Their example encourages us that with patient practice, we too can loosen the chains of craving and hatred that cause so much suffering in our daily lives.

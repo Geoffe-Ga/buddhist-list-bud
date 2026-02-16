@@ -1,0 +1,7 @@
+Right Intention, or *samma sankappa* in the ancient Pali language, is about cultivating wholesome motivations that guide our actions and thoughts. The word *sankappa* literally means "resolve" or "purpose" – it's the conscious decision about what direction we want our minds to move toward.
+
+Think of your mind like a garden. Just as a gardener must first decide what they want to grow before planting seeds, Right Intention involves making a deliberate choice about what mental qualities we want to nurture. Instead of letting our minds wander toward harmful thoughts of greed, hatred, or cruelty, we consciously orient ourselves toward kindness, generosity, and understanding.
+
+For example, imagine you're stuck in traffic and someone cuts you off. Your first impulse might be anger or the desire to retaliate. Right Intention means pausing and consciously choosing to respond with patience instead, perhaps even considering that the other driver might be having a difficult day.
+
+This practice is essential on the path to awakening because our intentions are like the steering wheel of our spiritual journey. Without consciously directing our motivations toward what's beneficial, we'll continue cycling through the same patterns of suffering. When we cultivate Right Intention, we're essentially training our hearts to naturally lean toward freedom rather than bondage, toward peace rather than conflict.

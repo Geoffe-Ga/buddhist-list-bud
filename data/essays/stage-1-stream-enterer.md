@@ -1,0 +1,7 @@
+Imagine you've been wandering in a dark forest for years, and suddenly you glimpse a clear path leading toward sunlight. In Buddhist terms, this moment of recognition is called becoming a Stream-Enterer, or *Sotapanna* in the ancient Pali language. The word literally means "one who has entered the stream" - the stream that flows inevitably toward complete awakening.
+
+A Stream-Enterer is someone who has had their first genuine glimpse of enlightenment and broken free from three mental chains that keep us trapped in suffering. It's like finally seeing through a magic trick that had fooled you your entire life. Once you truly understand how the trick works, you can never be completely deceived by it again.
+
+Think of learning to ride a bicycle. Before that breakthrough moment, falling seems inevitable and frightening. But once you find your balance - even briefly - you know with absolute certainty that cycling is possible. You might still wobble and need practice, but doubt about whether it can be done has vanished forever.
+
+This stage matters deeply because it represents unshakeable confidence in the Buddha's teachings and the reality of liberation. A Stream-Enterer knows from direct experience, not mere belief, that suffering can end. While they may still experience difficulties in life, they're guaranteed to reach full awakening within seven lifetimes at most - and often much sooner.

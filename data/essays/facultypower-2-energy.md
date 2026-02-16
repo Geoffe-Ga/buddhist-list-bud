@@ -1,0 +1,7 @@
+Energy in Buddhism isn't about being hyperactive or constantly busy. Instead, it's about cultivating a steady, sustainable enthusiasm for spiritual growth and wholesome living. The Pali word for this quality is *viriya*, which literally means "heroic effort" or "courage in action" – the kind of brave persistence a hero shows when facing challenges.
+
+Think of *viriya* like tending a garden. You don't exhaust yourself by watering plants frantically one day, then neglecting them for weeks. Instead, you show up consistently with gentle determination, pulling weeds when needed, watering regularly, and patiently watching things grow. This balanced energy keeps you moving forward without burning out.
+
+What makes Buddhist energy special is how it works with concentration. Imagine trying to thread a needle – you need enough energy to stay alert and focused, but not so much that your hands shake. Too little effort and your mind wanders; too much and you become tense and scattered. The Buddha taught that right energy finds this sweet spot between laziness and over-striving.
+
+This balanced approach matters deeply because awakening isn't something that happens through intense bursts of spiritual activity. It unfolds through sustained, mindful effort applied with wisdom and compassion. When you cultivate *viriya*, you develop the inner strength to face life's difficulties while maintaining an open, loving heart.

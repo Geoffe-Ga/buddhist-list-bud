@@ -1,0 +1,7 @@
+Think of that restless feeling when you finish eating something delicious and immediately want more, or when you buy something new but soon find yourself browsing online for the next purchase. This endless wanting is what the Buddha called "tanha" in the ancient Pali language, which literally means "thirst" – like being perpetually parched, always reaching for the next drink that never quite satisfies.
+
+Tanha, or craving, is the second of the Four Noble Truths and represents the root cause of our suffering. It's that automatic reaching toward pleasant experiences and pushing away from unpleasant ones. When we taste something sweet, we immediately want more sweetness. When we feel lonely, we desperately seek company. When we're uncomfortable, we frantically try to escape.
+
+The Buddha taught that craving arises from our feelings – those immediate reactions of pleasant, unpleasant, or neutral that color every moment. Here lies the key turning point: we can't control what feelings arise, but we can learn to observe our cravings without being swept away by them.
+
+Understanding tanha is liberating because it shows us that our dissatisfaction isn't caused by not having enough, but by the very act of endless wanting itself. When we see this pattern clearly, we begin to find peace not through getting what we want, but through loosening the grip of wanting itself.

@@ -1,0 +1,7 @@
+Imagine sitting quietly in meditation when suddenly your neighbor's loud music starts blaring. That flash of anger, that burning resentment that rises up – this is what the Buddha called vyapada, often translated as ill-will or aversion. The Pali word literally means "bad intention" or "malevolent thought," and it's the fifth of ten mental fetters that keep us bound to suffering.
+
+Ill-will is like a hot coal we pick up intending to throw at someone else – we're the ones who get burned first. It's that familiar feeling when someone cuts us off in traffic, when a colleague takes credit for our work, or when we scroll through social media and feel irritated by others' opinions. This mental state clouds our judgment and creates a wall between ourselves and genuine peace.
+
+The beautiful news is that this fetter can be completely overcome. Advanced practitioners called "non-returners" have learned to meet even the most challenging situations without a trace of ill-will arising. They've discovered something profound: when we stop feeding these flames of aversion, our hearts naturally open into boundless compassion.
+
+This teaching matters because ill-will is like wearing dark sunglasses – it colors everything we see. By recognizing and gently working with our aversion, we begin to see more clearly and love more freely, moving closer to the freedom that awaits us all.

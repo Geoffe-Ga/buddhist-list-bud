@@ -1,0 +1,7 @@
+Loving-kindness is essentially the heartfelt wish for all beings to be happy and free from suffering. It's that warm, genuine care you naturally feel for a dear friend when they're going through difficult times, extended outward to encompass everyone—even people you find challenging.
+
+The Pali term is *metta*, which literally means "friendliness" or "benevolence." Picture the unconditional love a mother feels for her child—that protective, nurturing warmth that wants only the best for them. *Metta* invites us to cultivate this same quality of heart toward all living beings.
+
+Think of how your day changes when someone genuinely smiles at you or offers a kind word. That's *metta* in action. It's not about being a doormat or agreeing with everyone, but rather holding a basic goodwill that says, "May you be well, may you be at peace."
+
+This practice is one of the four *brahma viharas* or "divine abodes"—qualities that transform our inner landscape. When we regularly cultivate loving-kindness, we gradually dissolve the barriers our minds create between "us" and "them." We discover that happiness isn't a zero-sum game; wishing others well actually opens our own hearts wider. As the walls of separation crumble, we naturally move toward the interconnectedness that wisdom reveals—making *metta* both a beautiful practice in itself and a doorway to deeper understanding.

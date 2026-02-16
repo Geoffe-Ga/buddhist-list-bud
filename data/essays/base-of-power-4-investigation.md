@@ -1,0 +1,7 @@
+Investigation, or *vimamsa* in Pali, is like being a gentle detective of your own inner world. The word literally means "to examine thoroughly" or "to discern wisely" – it's about looking closely at what's actually happening in your mind and heart, rather than just drifting along on autopilot.
+
+Think of how you might carefully examine a piece of fruit at the market. You don't grab the first apple you see; instead, you look at its color, feel its firmness, maybe smell it to determine if it's ripe and wholesome. Investigation works similarly with your thoughts, emotions, and experiences. When anger arises, for instance, you pause and examine it: Where do I feel this in my body? What triggered it? How is it changing from moment to moment?
+
+This isn't about harsh self-criticism or endless analysis. Rather, it's cultivating a kind, curious awareness that helps you see clearly. Just as that careful fruit inspection helps you choose nourishment over something that might make you sick, investigation helps you distinguish between mental patterns that lead to peace and those that create suffering.
+
+This quality of wise examination is essential because you can't transform what you don't truly see. Investigation illuminates the path forward, showing you which thoughts and actions actually serve your wellbeing and which ones keep you stuck in old cycles of reactivity.

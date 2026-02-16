@@ -1,0 +1,7 @@
+Imagine you're walking through your day and you notice the first stirrings of anger when someone cuts you off in traffic, or the initial tug of jealousy when scrolling through social media. "Preventing unwholesome states from arising" means catching these negative mental states before they fully bloom in your mind.
+
+In Pali, this is called *saṃvarāyāma*, which literally means "the effort of restraint." Think of it like tending a garden – you're not just pulling weeds that have already grown, but preventing weed seeds from taking root in the first place.
+
+Consider how you might handle gossip. When you feel that familiar urge to share something juicy about a colleague, this teaching invites you to pause right there, at that very moment of temptation. Instead of letting the unwholesome intention grow into harmful speech, you gently redirect your attention elsewhere – perhaps taking a mindful breath or asking yourself if sharing this story would truly help anyone.
+
+This practice is essential on the path to awakening because prevention is so much easier than cure. When anger or greed fully develops, it clouds our judgment and causes suffering for ourselves and others. By learning to recognize the early warning signs of these mental states and skillfully steering away from them, we create space for wisdom and compassion to flourish instead. It's like being a caring guardian of your own heart and mind.

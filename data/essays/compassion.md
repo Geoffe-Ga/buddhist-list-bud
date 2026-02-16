@@ -1,0 +1,7 @@
+Compassion is the warm, caring response that naturally arises when we truly see another being's suffering and feel moved to help ease their pain. In Pali, this beautiful quality is called *karuṇā*, which literally means "to cry out" or "to make a sound of distress" — pointing to that immediate, heartfelt response we feel when witnessing suffering.
+
+Imagine seeing a child who has fallen and scraped their knee. Without thinking, your heart opens, you feel their hurt, and you're naturally drawn to comfort them and tend their wound. This spontaneous caring response is compassion in action. It's different from pity, which keeps us separate and looking down on others, or mere sympathy, which might feel their pain but doesn't necessarily move us to act.
+
+Compassion is one of the Four Brahma Viharas, or "divine abodes" — sublime states of heart that we can cultivate through practice. As we develop *karuṇā*, we begin to see how interconnected we all are in our human experience of suffering. This recognition naturally softens the hard edges of our ego and self-centeredness.
+
+On the path to awakening, compassion becomes a powerful force for liberation. As we learn to meet suffering — both our own and others' — with an open, caring heart rather than resistance or judgment, we create the conditions for healing and wisdom to emerge. Compassion transforms us from the inside out.

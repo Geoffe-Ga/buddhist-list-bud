@@ -1,0 +1,7 @@
+Imagine settling down to meditate and suddenly feeling like you're wrapped in a thick, drowsy blanket. Your mind becomes foggy, your body feels heavy, and you can barely keep your eyes open. This sluggish, dull state is what Buddhists call "sloth-and-torpor," known in Pali as "thina-middha." The word "thina" refers to mental sluggishness or laziness of mind, while "middha" means drowsiness or torpor of body.
+
+Think of it like trying to drive through dense fog with a dirty windshield—you can barely see where you're going, everything feels unclear, and you just want to pull over and sleep. We've all experienced this during boring meetings, lengthy lectures, or even while reading before bed. Your mind simply refuses to engage, becoming cloudy and unresponsive.
+
+This mental haziness is one of the five hindrances that block our path to clarity and awakening. When sloth-and-torpor takes hold during meditation or daily mindfulness practice, it prevents us from seeing things clearly and developing the sharp awareness needed for insight. It's like trying to look at your reflection in muddy water—impossible to see clearly.
+
+The beautiful thing is that recognizing this dullness is already the first step toward overcoming it. When we notice we're caught in mental fog, we can gently energize our practice through deeper breathing, adjusting our posture, or simply acknowledging this natural tendency of the mind with patient compassion.

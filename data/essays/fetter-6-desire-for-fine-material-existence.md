@@ -1,0 +1,7 @@
+Imagine you've worked hard to create a beautiful, peaceful life—perhaps you live in a lovely home, surrounded by beauty and tranquility. While this seems wonderful, there's a subtle attachment lurking beneath: the desire for fine-material existence, or *rupa-raga* in Pali. The word *rupa* means "form" or "material," while *raga* means "attachment" or "lust"—so this literally refers to our clinging to refined physical experiences.
+
+This sixth fetter is like being attached to living in a gorgeous penthouse apartment. Even though it's infinitely better than a cramped basement, you're still bound by walls. *Rupa-raga* represents our attachment to elevated states of consciousness and refined material experiences—beautiful meditation states, heavenly realms, or simply the more pleasant aspects of physical existence.
+
+Think of someone who becomes attached to the bliss of deep meditation or the idea of rebirth in heavenly realms. While these experiences are beneficial, clinging to them still creates suffering because they're impermanent. It's like preferring golden chains to iron ones—they're still chains.
+
+This teaching matters because even our highest aspirations can become subtle prisons. Only when we release attachment to all forms of existence, however refined, can we discover the unconditioned peace of awakening. It's the difference between upgrading your cage and stepping into complete freedom.

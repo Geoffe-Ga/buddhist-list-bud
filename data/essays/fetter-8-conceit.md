@@ -1,0 +1,7 @@
+Imagine you're sitting quietly, feeling quite peaceful and thinking, "I'm really getting good at this meditation thing." That subtle sense of "I am" – whether comparing yourself to others or simply maintaining that quiet inner referee who's always evaluating – is what Buddhism calls the eighth fetter: conceit.
+
+The Pali word is *mana*, which literally means "measuring" or "thinking." It's not just arrogance or vanity, though it includes those. It's the deeper, often unconscious habit of constantly measuring ourselves – thinking "I'm better than," "I'm worse than," or even "I'm equal to" others. It's that persistent sense of being a separate self who needs to be positioned somewhere in relation to everything else.
+
+Think of it like an invisible measuring tape that your mind carries everywhere. You walk into a room and immediately, without even realizing it, you're measuring: "I'm smarter than him, not as attractive as her, about the same age as them." Even in moments of humility, there's still someone there doing the being humble.
+
+This matters deeply because this subtle "I-making" keeps us trapped in separation and suffering. It's often the last fetter to fall away before awakening, because it's so fundamental to how we normally experience ourselves. The beautiful news is that simply recognizing this measuring mind with gentle awareness begins to loosen its grip.

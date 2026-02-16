@@ -1,0 +1,7 @@
+Right Speech is simply about speaking in ways that help rather than harm ourselves and others. In Pali, the ancient language of early Buddhist texts, this is called "Samma Vaca," where "samma" means right or complete, and "vaca" refers to speech or what we express with words.
+
+Think of your words as seeds you're planting in the world. When you speak truthfully, kindly, and thoughtfully, you plant flowers that brighten everyone's day. But harsh words, lies, or gossip are like planting weeds that create suffering and confusion. Just as a gardener carefully chooses which seeds to plant, we can learn to choose our words wisely.
+
+Right Speech involves avoiding lies, harsh language, gossip, and empty chatter that serves no useful purpose. Instead, we cultivate truthful, gentle, and meaningful communication. This might mean pausing before speaking when you're angry, choosing to encourage rather than criticize, or simply listening more deeply to others.
+
+This practice matters deeply on the path to awakening because our speech both reflects and shapes our inner state. When we speak mindfully, we develop greater awareness of our thoughts and emotions. Our relationships improve, creating the peaceful conditions that support meditation and wisdom. Each kind word becomes a step toward the freedom and happiness that Buddhism promises is possible for all of us.

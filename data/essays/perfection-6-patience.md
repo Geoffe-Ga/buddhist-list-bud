@@ -1,0 +1,7 @@
+Patience in Buddhism, known as *khanti* in the ancient Pali language, means much more than simply waiting in line without complaining. This beautiful word encompasses endurance, forbearance, and the gentle strength to remain calm when life challenges us. Think of *khanti* as developing the inner resilience of a mountain that stands peacefully through storms, neither fighting the wind nor being moved by it.
+
+Imagine you're stuck in heavy traffic when you're already running late. Your usual response might be frustration, honking, or mentally criticizing other drivers. But *khanti* invites you to breathe deeply and accept this moment as it is. You might even use the unexpected pause to practice gratitude or simply notice your breath. This isn't passive resignation—it's active wisdom, choosing peace over reactivity.
+
+This practice becomes essential on the spiritual path because impatience and anger are like picking up hot coals to throw at someone else; you're the first to get burned. When we cultivate *khanti*, we stop creating unnecessary suffering for ourselves and others. We learn to meet difficult people and situations with equanimity, which naturally purifies our hearts and minds.
+
+As you develop this quality, you'll discover that patience isn't about gritting your teeth and enduring—it's about finding genuine peace within life's inevitable ups and downs.

@@ -1,0 +1,7 @@
+Imagine you've just finished a wonderful conversation with a friend where you felt genuinely kind and patient, or perhaps you've spent a morning feeling truly grateful for the simple things in life. In Buddhism, these beautiful states of heart and mind are precious gifts that deserve our attention and care. This is what "maintaining wholesome states that have arisen" means—when goodness naturally appears in our experience, we learn to nurture and sustain it rather than letting it slip away unnoticed.
+
+The Pali term for this is *uppanna-kusalānaṃ dhammānaṃ ṭhitiyā*, which literally means "for the stability of wholesome mental states that have arisen." Think of it like tending a garden. When beautiful flowers bloom, you don't simply admire them once and walk away—you water them, protect them from harsh winds, and create conditions for them to flourish.
+
+In daily life, this might mean savoring moments of compassion toward a difficult colleague, or consciously extending feelings of peace that arise during a quiet morning. Instead of rushing past these experiences, we pause and appreciate them, allowing their warmth to settle more deeply into our being.
+
+This practice matters profoundly on the path to awakening because it trains us to recognize and cultivate the very qualities that lead to freedom from suffering. By learning to maintain wholesome states, we gradually transform our inner landscape into fertile ground for wisdom and compassion to grow.

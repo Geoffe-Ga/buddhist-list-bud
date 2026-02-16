@@ -1,0 +1,7 @@
+Mindfulness of Body is simply the practice of paying gentle, continuous attention to your physical experience as it unfolds moment by moment. In the ancient Pali language, this is called "kāyagatāsati," which literally means "mindfulness gone to the body" or "mindfulness dwelling in the body." Think of it as your awareness taking up residence in your physical form, like settling into a comfortable home.
+
+Imagine you're washing dishes after dinner. Instead of letting your mind wander to tomorrow's meetings or replaying today's conversations, you bring your full attention to the warm water flowing over your hands, the slippery texture of soap, the gentle pressure of your fingers against the plates. This is mindfulness of body in action – being fully present with your physical sensations rather than lost in mental stories.
+
+This practice serves as one of the four foundations that support all Buddhist meditation because our bodies are always with us in the present moment. When we anchor our awareness in physical sensations – whether it's the breath moving in and out, our feet touching the ground, or tension releasing from our shoulders – we step out of the endless stream of thoughts about past and future.
+
+By cultivating this gentle attention to our physical experience, we develop the stability and presence needed for deeper wisdom to unfold, gradually freeing ourselves from the suffering that comes from being lost in mental reactivity.

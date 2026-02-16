@@ -1,0 +1,7 @@
+Imagine your mind as a gentle but powerful river that can either scatter in all directions or flow steadily toward the ocean. In Buddhism, we call this focused flow of mental energy "citta," which literally means "mind" or "consciousness" in the ancient Pali language. This represents the third base of power in our spiritual development, emphasizing the cultivation of concentrated, purposeful awareness.
+
+Think about learning to drive a car. At first, your attention jumps everywhere—the mirrors, the pedals, other cars, the radio. But gradually, your mind learns to coordinate all these elements into one smooth, focused activity. Similarly, citta involves training our naturally scattered consciousness to become steady and clear, like a still pond that perfectly reflects the sky.
+
+This mental training isn't about forcing your thoughts into submission or becoming rigid. Rather, it's like gently gathering the reins of a spirited horse—you're learning to guide your mind's natural energy with kindness and skill. When your consciousness becomes focused and stable, you develop the capacity to see things as they truly are, without the usual mental chatter and distraction.
+
+This base of power matters deeply because a concentrated mind is like a sharp tool—it can cut through confusion and illusion. With developed citta, you gain the mental clarity necessary to understand the deeper teachings and ultimately experience the freedom that comes with awakening.

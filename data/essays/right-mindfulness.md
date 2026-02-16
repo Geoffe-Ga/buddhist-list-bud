@@ -1,0 +1,7 @@
+Right Mindfulness is simply about paying clear, gentle attention to what's actually happening in this moment, rather than being lost in thoughts about the past or future. In Pali, it's called "Samma Sati," where "samma" means complete or whole, and "sati" means awareness or remembrance – literally, the ability to hold something clearly in mind.
+
+Think of it like being a friendly scientist of your own experience. When you're washing dishes, you're fully present with the warm water, the texture of the soap, the weight of each plate. You notice when your mind wanders to tomorrow's meeting or yesterday's conversation, and you gently return your attention to the simple act of washing. There's no judgment, just kind awareness.
+
+The Buddha taught that we should cultivate mindfulness of four areas: our body and its sensations, our feelings of pleasant or unpleasant, our mental states, and the patterns of our thoughts. It's like tending a garden – you observe what's growing without immediately trying to fix or change anything.
+
+This practice matters deeply because most of our suffering comes from being caught up in mental stories rather than seeing reality clearly. Right Mindfulness helps us step out of automatic reactions and develop the clear seeing that leads to freedom. It's the foundation that supports all other aspects of the spiritual path.

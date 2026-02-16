@@ -1,0 +1,7 @@
+Imagine you're scrolling through social media and see a friend's vacation photos. Suddenly, a familiar pang arises—wanting what they have, feeling like your own life isn't quite enough. This craving, this restless reaching for more, is what Buddhism calls *lobha* in the ancient Pali language, which literally means "greed" or "attachment."
+
+*Lobha* isn't just about wanting expensive things. It's the underlying mental habit of grasping—clinging to pleasant experiences, craving approval, or even holding tightly to our opinions and self-image. Think of it like having sticky fingers that can't let go of whatever feels good. We might find ourselves endlessly refreshing news feeds, chasing the next purchase that will finally make us happy, or desperately trying to make a perfect moment last forever.
+
+Buddhism teaches that *lobha* is one of the three root causes of our suffering, alongside hatred and delusion. It's like a fire that consumes our peace—the more we feed it, the hungrier it grows. When we understand this pattern in ourselves with gentle awareness, we begin to see how our constant wanting keeps us trapped in cycles of dissatisfaction.
+
+The beautiful news is that recognizing *lobha* is the first step toward freedom. As we learn to observe our cravings without immediately acting on them, we gradually develop the inner spaciousness that leads to genuine contentment and awakening.

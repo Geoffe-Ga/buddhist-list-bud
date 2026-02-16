@@ -1,0 +1,7 @@
+Think of concentration as the art of gathering your scattered mental energy into one focused beam, like sunlight through a magnifying glass. In Buddhism, we call this *samadhi* (pronounced "sah-MAH-dee"), a Pali word that literally means "to collect" or "to unify" – bringing together all the wandering pieces of your attention into a single, peaceful point.
+
+Imagine trying to read a book while sitting in a busy café. At first, you're distracted by conversations, music, and movement around you. But gradually, as you become absorbed in the story, the background noise fades away. Your mind settles naturally into the words on the page, and you experience a pleasant sense of calm focus. This is very similar to what happens in meditation when we develop concentration.
+
+In Buddhist training, concentration works hand-in-hand with mindful energy. Too little effort, and your mind drifts like a lazy river. Too much force, and it becomes tense and tight. The sweet spot is a gentle, sustained attention that feels both alert and relaxed.
+
+Why does this matter for awakening? A concentrated mind is like still water – it becomes crystal clear, allowing us to see deeply into the nature of reality. Without this mental stability, wisdom remains cloudy and insights slip away like fish in murky water. Through patient practice, concentration becomes the foundation for profound understanding.

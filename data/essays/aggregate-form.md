@@ -1,0 +1,7 @@
+When the Buddha examined what we call "experience," he discovered it could be understood through five components, like taking apart a beautiful tapestry to see the individual threads. The first of these is called "form" in English, or *rūpa* in the ancient Pali language, which literally means "that which appears" or "that which can be molded."
+
+Form refers to everything physical in our experience—your body, the chair you're sitting on, the coffee cup in your hands, even the light entering your eyes. It's the material foundation upon which all our experiences rest. Think of form like the stage in a theater: without it, there would be nowhere for the drama of consciousness to unfold.
+
+Here's what makes this insight so profound: we often think of our body as "me" or "mine," but the Buddha invites us to see it simply as form—arising, changing, and passing away like everything else in nature. Watch your breath for a moment. Notice how your chest rises and falls, how air flows in and out. This isn't happening because "you" are controlling it; it's simply form following natural laws.
+
+Understanding form this way helps loosen our tight grip on the idea of a fixed, permanent self. When we see our body as part of the flowing river of experience rather than as our permanent home, we begin to find the freedom that leads to awakening.

@@ -1,0 +1,7 @@
+Mindfulness, known in Pali as *sati*, is like having a gentle, wise friend sitting beside you throughout your day, helping you notice what's actually happening in each moment. The word *sati* literally means "to remember" or "to be aware," but it's a special kind of remembering—not dwelling on the past, but remembering to stay present and awake to your experience right now.
+
+Imagine you're washing dishes after dinner. Usually, your mind might wander to tomorrow's meetings or replay an earlier conversation. But with mindfulness, you're fully present with the warm water flowing over your hands, the smooth texture of the plates, the simple rhythm of cleaning. You're not judging the experience as good or bad—you're simply aware, like a clear mirror reflecting whatever appears before it.
+
+In the Buddhist path, mindfulness is called the "central balancing faculty" because it harmonizes all our other spiritual qualities. Without it, our meditation might become dreamy and unfocused, or our wisdom might turn into mere intellectual understanding disconnected from lived experience. Mindfulness keeps us grounded in reality while remaining open and receptive.
+
+This quality of gentle, non-judgmental awareness gradually reveals the true nature of our experience, helping us see through the habits of mind that create suffering. It's not about perfection, but about showing up fully for your life, moment by precious moment.

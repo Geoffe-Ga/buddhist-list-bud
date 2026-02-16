@@ -1,0 +1,7 @@
+Imagine your mind as a still pond that's constantly being disturbed by ripples – that's essentially what the Buddha called *uddhacca*, a Pali word meaning "restlessness" or "agitation." The word literally translates as "lifted up" or "tossed about," like leaves scattered by wind that never quite settle to the ground.
+
+We all know this feeling intimately. It's that fidgety energy when you're trying to meditate but your mind keeps jumping from tomorrow's meeting to last week's conversation to what's for dinner. It's the mental static that makes concentration feel impossible, like trying to thread a needle while riding a bumpy bus. Even when you're physically still, your inner world feels chaotic and unsettled.
+
+The Buddha identified restlessness as one of the ten fetters – mental chains that bind us to suffering. It's considered a "higher fetter" because it persists even in advanced practitioners, only fully released when one becomes an arahant, a fully awakened being. This might sound discouraging, but it's actually liberating! Understanding that restlessness is a natural part of the human condition helps us relate to it with compassion rather than frustration.
+
+When we recognize restlessness arising, we can gently return to our breath or present-moment awareness. Each time we do this, we're weakening the fetter's hold, gradually cultivating the inner stillness that allows wisdom to flourish. This practice transforms agitation from an enemy into a teacher.

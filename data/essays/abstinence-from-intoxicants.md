@@ -1,0 +1,7 @@
+The fifth Buddhist precept asks us to abstain from substances that cloud our minds and impair our judgment. In Pali, this is called "Surameraya veramani," which literally means "abstaining from fermented drinks and distilled liquors." While the ancient language specifically mentions alcohol, the principle extends to any intoxicant that diminishes our awareness and self-control.
+
+Think of your mind like a clear mountain lake. When the water is still and pure, you can see all the way to the bottom with perfect clarity. But when substances muddy the water, everything becomes distorted and unclear. Intoxicants work similarly on our consciousness, making it difficult to see situations clearly or respond with wisdom and compassion.
+
+This isn't about being a killjoy or following rigid rules. Rather, it's about protecting something precious—your ability to be fully present and make skillful choices. When our minds are sharp and clear, we can better understand our emotions, respond thoughtfully to challenges, and cultivate the awareness needed for spiritual growth.
+
+The Buddha understood that awakening requires a mind that's alert and undisturbed. Just as an athlete maintains peak physical condition, those walking the Buddhist path benefit from maintaining mental clarity. This precept is like a loving friend reminding us to care for our most valuable tool for liberation—our conscious, aware mind.

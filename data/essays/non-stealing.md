@@ -1,0 +1,7 @@
+Imagine sitting with a dear friend who asks you to watch their wallet while they step away. Non-stealing means honoring that trust completely – not taking what isn't freely given to you. In Buddhism, we call this principle "Adinnadana veramani" in the ancient Pali language, which literally translates as "refraining from taking what is not given."
+
+This beautiful teaching extends far beyond obvious theft. It includes being honest about our work hours, not "borrowing" office supplies without permission, paying fair wages, or even taking credit for someone else's ideas. Think of it as cultivating a deep respect for the boundaries between what's ours and what belongs to others.
+
+When we practice non-stealing, something wonderful happens in our hearts. We begin to trust ourselves more deeply, knowing we can rely on our own integrity. This creates space for generosity to bloom naturally – when we're not grasping for what isn't ours, we become more willing to share what we have.
+
+On the path to awakening, non-stealing helps quiet the restless mind that's always wanting more. It teaches us contentment with what we already possess and builds the ethical foundation necessary for deeper spiritual development. Each time we choose honesty over taking shortcuts, we're strengthening the peaceful, trustworthy person we're becoming.

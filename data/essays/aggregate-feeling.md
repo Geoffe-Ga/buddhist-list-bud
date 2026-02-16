@@ -1,0 +1,7 @@
+Every moment of your experience has a subtle feeling tone - it's either pleasant, unpleasant, or neutral. This is what Buddhism calls the aggregate of feeling, known in Pali as "vedanā." This ancient word comes from the root meaning "to feel" or "to experience," and it's one of the five building blocks that make up what we think of as our experience of life.
+
+Think of sipping your morning coffee. The warm, rich taste might create a pleasant feeling tone. Later, when you hear fingernails scraping a chalkboard, that creates an unpleasant feeling tone. And when you're simply breathing normally without thinking about it, that's usually neutral - neither particularly pleasant nor unpleasant.
+
+Here's what makes this teaching so profound: we rarely notice these feeling tones, yet they drive most of our reactions. That pleasant coffee taste makes us want another cup. The unpleasant sound makes us want to cover our ears. We're constantly pulled toward the pleasant and pushed away from the unpleasant, creating a cycle of craving and aversion that keeps us suffering.
+
+By learning to observe these feeling tones with gentle awareness - without immediately reacting to them - we begin to find freedom. We can experience the pleasant without clinging, the unpleasant without resistance, and the neutral without boredom. This simple awareness becomes a doorway to peace.

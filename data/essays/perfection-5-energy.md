@@ -1,0 +1,7 @@
+Imagine you're learning to play piano. Some days your fingers feel clumsy, the music sounds terrible, and you want to quit. But something inside keeps you returning to the bench, day after day, gently coaxing beautiful melodies from those stubborn keys. This persistent, patient effort is what Buddhists call "viriya" – often translated as energy or effort.
+
+Viriya comes from the Pali word meaning "heroic energy" or "vigor," but it's not the frantic, aggressive pushing we might expect. Think of it more like the steady determination of a gardener who waters seeds daily, knowing that growth happens slowly and naturally. It's the quiet heroism of showing up consistently, even when progress feels invisible.
+
+In Buddhist practice, viriya means maintaining gentle persistence in meditation, mindfulness, and ethical living. It's continuing to observe your breath when your mind wanders for the hundredth time, or choosing kindness when irritation arises. This isn't about forcing yourself through gritted teeth, but rather cultivating a wise, sustainable enthusiasm for the path.
+
+Why does this matter for awakening? Just as that pianist's daily practice eventually yields beautiful music, our consistent spiritual effort gradually transforms our hearts and minds. Viriya provides the steady fuel that carries us through difficult periods and keeps us moving toward freedom from suffering, one mindful moment at a time.

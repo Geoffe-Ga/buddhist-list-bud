@@ -1,0 +1,7 @@
+Imagine sitting with a dear friend who gently points out something we all know but rarely want to face: everything that's born must age and die. This is what the Buddha called "jara-marana" in Pali, where "jara" means aging or decay, and "marana" means death. Together, they represent the inevitable conclusion that awaits every living being.
+
+Think of a beautiful flower you might plant in your garden. From the moment it blooms, it begins its journey toward wilting. The vibrant petals gradually fade, the stem weakens, and eventually it returns to the earth. This isn't a tragedy—it's simply the nature of all conditioned things. Our bodies, relationships, and even our thoughts follow this same pattern of arising, changing, and passing away.
+
+The Buddha included aging and death in his teaching of the Four Noble Truths because recognizing this reality is essential for understanding suffering. When we resist or deny this natural process, we create unnecessary pain for ourselves. But here's the encouraging part: by accepting aging and death as natural, we can live more fully and appreciate each precious moment.
+
+The Buddha also taught that this process is "conditioned by birth"—meaning that as long as we're caught in the cycle of craving and attachment, we'll continue to experience this pattern repeatedly. Understanding this helps us see why liberation from suffering is both possible and profoundly worthwhile.

@@ -1,0 +1,7 @@
+Investigation of Dhamma, known in Pali as *dhammavicaya*, is one of the seven essential qualities that help us awaken to life's deepest truths. Think of it as becoming a gentle, curious detective of your own experience. The word literally means "investigation of the teachings" or "examination of truth" - *dhamma* referring to the Buddha's teachings and the natural laws of existence, while *vicaya* means to investigate or examine carefully.
+
+Imagine you're trying to understand why your smartphone keeps freezing. You don't just get frustrated and give up - you observe the patterns, notice when it happens most, check different apps, and gradually piece together what's really going on. Investigation of Dhamma works similarly, but instead of troubleshooting technology, you're exploring the nature of your thoughts, emotions, and experiences with patient curiosity.
+
+This gentle inquiry might involve noticing how anger actually feels in your body, observing what triggers your anxiety, or examining whether that voice in your head telling you you're not good enough is actually true. You become like a kind scientist of your inner world, neither harsh nor naive, but genuinely interested in understanding.
+
+This investigation matters deeply because wisdom arises not from blind belief, but from seeing clearly how things really are. When you understand the true nature of your experiences - their impermanence, their interconnectedness - you naturally begin to let go of the mental habits that cause suffering.

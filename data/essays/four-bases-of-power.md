@@ -1,0 +1,7 @@
+Imagine you're learning to play piano or training for a marathon. What qualities help you succeed? You need genuine desire, sustained effort, focused attention, and thoughtful analysis of your progress. These same four qualities form what Buddhism calls the Four Bases of Power, or in Pali, *Cattaro Iddhipada* – literally meaning the "four foundations of spiritual success."
+
+The first foundation is *chanda*, your heartfelt wish or desire to grow spiritually. Just as a musician must genuinely want to improve, you need sincere motivation for inner development. The second is *viriya*, which means energy or effort – the consistent practice that moves you forward, like showing up to meditation even when you don't feel like it.
+
+The third foundation is *citta*, your focused mind or concentration. Think of how a pianist must concentrate fully during practice; similarly, you gather your scattered attention into steady awareness. Finally comes *vimamsa*, which means investigation or wise discernment – honestly examining what helps and what hinders your progress.
+
+These four work together like legs of a sturdy table. Too much desire without effort leads to wishful thinking. Effort without concentration becomes scattered busyness. Concentration without investigation can become dull absorption. When balanced, these foundations create the inner conditions for profound spiritual development. They're called "bases of power" because they generate the strength needed for awakening – not magical powers, but the real power of transformation.

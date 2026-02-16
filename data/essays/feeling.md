@@ -1,0 +1,7 @@
+In Buddhism, "feeling" doesn't mean emotions like happiness or anger. Instead, it refers to something much more basic - the immediate pleasant, unpleasant, or neutral quality that colors every moment of our experience. The Pali word is *vedanā*, which comes from a root meaning "to know" or "to feel," pointing to this fundamental way we sense our world.
+
+Think of it like this: imagine biting into a piece of chocolate. Before your mind even thinks "mmm, chocolate!" there's an instant pleasant feeling-tone that arises. Similarly, when you hear nails on a chalkboard, there's an immediate unpleasant quality before you consciously recognize what's happening. Most experiences, like breathing normally or sitting quietly, carry a neutral feeling-tone that we barely notice.
+
+These feeling-tones arise because of contact - when our senses meet objects, whether it's eyes meeting colors, ears meeting sounds, or mind meeting thoughts. This contact automatically produces one of these three basic feelings in every moment of awareness.
+
+Understanding *vedanā* is crucial because it's often the launching pad for our suffering. That pleasant feeling makes us grasp and crave more; the unpleasant makes us push away and resist. By learning to simply notice these feeling-tones without immediately reacting, we begin to break the chain that leads to suffering and move toward the peace of awakening.

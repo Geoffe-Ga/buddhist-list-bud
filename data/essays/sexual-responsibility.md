@@ -1,0 +1,7 @@
+Sexual responsibility in Buddhism means treating our intimate relationships and sexual energy with wisdom, care, and respect for everyone involved. The Pali term "kamesu micchacara veramani" literally translates as "abstaining from sexual misconduct," where "kamesu" refers to sensual pleasures, "micchacara" means wrong conduct, and "veramani" means refraining from.
+
+Think of this like tending a garden. Just as we wouldn't carelessly trample through someone else's carefully planted flowers, we approach intimate relationships with mindfulness and consideration. This means being faithful to our committed partners, not engaging sexually with people who are married to others, and avoiding sexual behavior that causes harm, deception, or exploitation.
+
+This isn't about shame or rigid rules, but rather about recognizing that our sexual choices create ripples that affect ourselves and others deeply. When we act with integrity in our intimate lives, we avoid the suffering that comes from betrayal, jealousy, and broken trust. We also cultivate qualities like honesty, self-control, and genuine care for others' wellbeing.
+
+On the path to awakening, sexual responsibility helps quiet the mind's turbulence. When we're not caught up in deceptive or harmful sexual behavior, we experience less guilt, anxiety, and emotional chaos. This inner peace creates the stable foundation we need for deeper spiritual development and genuine happiness.

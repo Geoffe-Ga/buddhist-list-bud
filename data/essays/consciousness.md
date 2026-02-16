@@ -1,0 +1,7 @@
+Consciousness in Buddhism refers to our basic awareness—that fundamental knowing quality that recognizes when we see, hear, smell, taste, touch, or think. It's simply the awareness that "lights up" when we encounter anything through our senses or mind.
+
+The Pali word is *viññana*, which literally means "knowing" or "recognition." Think of it like a flashlight beam that illuminates whatever it touches. When you hear a bird singing, consciousness is what recognizes "sound is happening." When you taste coffee, consciousness knows "flavor is present." It's not the thinking about these experiences—just the basic recognition that they're occurring.
+
+Here's what makes this fascinating: consciousness doesn't arise independently. It's always conditioned by mental formations—our habits, past experiences, and mental patterns. Just as a flashlight needs batteries and someone to aim it, consciousness needs these conditioning factors to function. This means our awareness is constantly shaped by our previous experiences and mental habits.
+
+Understanding consciousness this way is liberating because it shows us that our awareness isn't fixed or permanent. Since consciousness depends on conditions, we can work skillfully with those conditions. Through meditation and mindful living, we can gradually purify the mental formations that condition our consciousness, leading to clearer, more peaceful awareness. This understanding helps us see that awakening isn't about gaining something new, but about removing the conditions that cloud our natural awareness.

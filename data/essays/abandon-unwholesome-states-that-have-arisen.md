@@ -1,0 +1,7 @@
+Imagine you're gardening and notice weeds sprouting among your flowers. You wouldn't just stand there watching them grow—you'd pull them out before they spread and choke your beautiful plants. This is exactly what "abandon unwholesome states that have arisen" means in our inner life.
+
+In Pali, this concept is called *pahāna*, which literally means "giving up" or "letting go." It's the second of the Four Right Efforts, teaching us to actively release negative mental states that have already taken root in our minds—things like anger, jealousy, greed, or despair.
+
+Let's say you're stuck in traffic and anger starts bubbling up. Instead of feeding that anger with thoughts like "This is ridiculous!" or "That driver is an idiot!", you recognize what's happening and consciously choose to let it go. You might take deep breaths, soften your shoulders, or remind yourself that getting worked up won't make traffic move faster.
+
+This practice is crucial because unwholesome mental states are like mental poison—they cloud our judgment, create suffering for ourselves and others, and block our natural wisdom and compassion. When we learn to skillfully abandon these states as they arise, we're clearing the path for peace, clarity, and genuine happiness to flourish. It's not about suppressing feelings, but about choosing not to feed the mental patterns that cause us pain.

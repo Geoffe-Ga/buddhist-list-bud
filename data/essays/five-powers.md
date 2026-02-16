@@ -1,0 +1,7 @@
+Imagine you've been practicing piano for months. At first, your fingers stumbled over the keys, but now they move with confidence and strength. This is the beautiful difference between having potential and having power – and this distinction lies at the heart of the Five Powers, or *Pañca Bala* in the ancient Pali language, where "bala" simply means "strength" or "power."
+
+The Five Powers are actually the same five qualities as the Five Faculties we encounter earlier on the spiritual path – faith, energy, mindfulness, concentration, and wisdom. But here's what makes them special: they've matured from tender shoots into sturdy trees. Where the faculties were like having good seeds, the powers are like having a thriving garden that can weather storms.
+
+Think of learning to ride a bicycle. Initially, you needed training wheels and constant attention – that's the faculty stage. But once these abilities become powers, you can ride confidently through traffic, up hills, and in any weather. Your faith becomes unshakeable trust, your energy flows steadily without forcing, your mindfulness stays present even during difficulties, your concentration deepens naturally, and your wisdom guides you clearly through life's complexities.
+
+These powers matter because they represent the point where your spiritual practice becomes self-sustaining. You're no longer a beginner struggling to remember techniques – you've become someone whose very being radiates the qualities that lead to freedom.

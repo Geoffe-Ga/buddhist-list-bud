@@ -1,0 +1,7 @@
+Imagine you're learning to play piano. At first, your fingers stumble over the keys, but through steady, patient practice, beautiful music eventually flows. This gentle persistence is what Buddhists call *viriya* (vee-REE-yah), often translated as energy or effort. The Pali word literally means "heroic energy" or "vigor," suggesting not a frantic rushing but rather the steady courage of a hero on their journey.
+
+Think of *viriya* like tending a garden. You don't plant seeds one day and expect flowers the next morning. Instead, you water consistently, pull weeds regularly, and trust the natural process. Some days you feel enthusiastic, other days tired, but you show up anyway. This is the kind of effort Buddhism encourages—balanced, sustainable, and kind to yourself.
+
+*Viriya* is one of the essential powers we cultivate because spiritual growth requires this gentle persistence. Without effort, our good intentions remain just wishes. Yet this isn't about forcing yourself or becoming rigid. It's more like a river that persistently carves through rock—not through violence, but through continuous, patient flow.
+
+When you meditate for just ten minutes daily, even when your mind feels scattered, or when you practice kindness toward a difficult colleague, you're developing *viriya*. This steady energy gradually transforms your heart and mind, leading toward the peace and wisdom that Buddhism promises.

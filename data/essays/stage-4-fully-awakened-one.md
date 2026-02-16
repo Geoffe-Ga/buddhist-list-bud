@@ -1,0 +1,7 @@
+Imagine someone who has completely untangled themselves from every knot that once bound them to suffering—this is what we call an Arahant in Pali, literally meaning "worthy one" or "one who deserves respect." This represents the fourth and final stage of awakening, where a person has broken free from all ten fetters that keep us trapped in cycles of dissatisfaction and rebirth.
+
+Think of it like finally paying off every debt you've ever had—not just financial debts, but emotional and spiritual ones too. An Arahant has released all attachments to identity, doubt, rituals, sensual desires, ill-will, craving for existence, pride, restlessness, and ignorance. They've achieved what we call "complete cessation"—the end of all suffering.
+
+Picture a perfectly calm lake on a windless day, reflecting the sky without a single ripple. This is the mind of an Arahant—completely at peace, free from the storms of craving and aversion that typically disturb our inner waters. They still experience life fully, but without the sticky quality of attachment that usually causes us pain.
+
+While this might sound impossibly distant, understanding the Arahant gives us a clear destination for our spiritual journey. It's like having a lighthouse to guide us through stormy seas—we may not reach it immediately, but knowing it exists helps us navigate toward greater freedom and peace in our daily lives.

@@ -1,0 +1,7 @@
+Imagine you're constantly chasing something just out of reach—whether it's the perfect job, relationship, or moment of happiness. Buddhism recognizes this underlying restlessness as dukkha, a Pali word often translated as "suffering," though it means something much deeper than just pain or sadness.
+
+Dukkha literally refers to a wheel that's slightly off-center, wobbling as it turns. This beautiful metaphor captures how life feels inherently "off"—never quite settled, always shifting between wanting what we don't have and fearing we'll lose what we do have. Even our happiest moments carry a subtle anxiety because we know they won't last.
+
+Think about eating your favorite meal. The first few bites are wonderful, but gradually the pleasure fades, and eventually you feel full or even uncomfortable. This isn't about being pessimistic—it's about seeing clearly that nothing in our experience provides lasting satisfaction. Our relationships change, our bodies age, our circumstances shift, and even our thoughts come and go like clouds in the sky.
+
+This insight forms the First Noble Truth and is one of the Three Marks of Existence because recognizing dukkha is actually liberating. Once we stop expecting the impossible—permanent happiness from impermanent things—we can begin to find peace with reality as it is. This understanding opens the door to genuine freedom, not from life's challenges, but from our futile resistance to them.

@@ -1,0 +1,7 @@
+Imagine sitting quietly and suddenly becoming aware that you're aware – that simple, clear knowing that experiences are happening right now. This is what Buddhists call the consciousness aggregate, or in the ancient Pali language, "viññāṇa," which literally means "knowing" or "discerning awareness."
+
+Think of consciousness like a clear mirror that reflects whatever appears before it. When you hear a bird singing, there's the sound itself, but there's also the pure awareness that knows "hearing is happening." When you taste coffee, beyond the flavor lies that fundamental awareness recognizing "tasting is occurring." Buddhism teaches that this consciousness operates through six doorways – our five physical senses plus the mind that knows thoughts and mental images.
+
+What makes this teaching so profound is recognizing that this awareness itself is constantly changing, just like everything else in our experience. We often think of ourselves as a solid, unchanging observer, but careful attention reveals that even consciousness flickers and flows moment by moment.
+
+Understanding consciousness as an aggregate – one of five components that create our sense of self – helps us see through the illusion of having a fixed, separate self. This insight is liberating because it loosens our tight grip on "me" and "mine," opening the door to the peace and freedom that comes from seeing reality as it truly is.

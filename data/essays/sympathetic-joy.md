@@ -1,0 +1,7 @@
+Sympathetic joy is the beautiful ability to genuinely celebrate other people's happiness and good fortune. In Pali, this quality is called *mudita*, which literally means "gladness" or "joy with others." It's that warm feeling you get when you're truly happy for someone else's success, without any trace of envy or comparison.
+
+Imagine your friend gets a promotion you were also hoping for. Sympathetic joy means your heart genuinely lights up for their achievement rather than feeling bitter or disappointed. It's like being a parent watching your child take their first steps—pure delight in another's triumph with no thought of what's in it for you.
+
+This practice might seem simple, but it's actually quite profound. Our minds often default to comparison and competition, making us feel diminished by others' happiness. When we cultivate *mudita*, we break free from this painful pattern. We discover that joy, unlike material things, isn't limited—there's always enough to go around.
+
+On the spiritual path, sympathetic joy is one of the four "divine abodes" that purify the heart. It dissolves the jealousy and resentment that keep us trapped in suffering. When we can genuinely rejoice in others' well-being, we're training our hearts in unconditional love. This practice gradually transforms us, making our own happiness less dependent on circumstances and more rooted in the natural joy of an open, generous heart.

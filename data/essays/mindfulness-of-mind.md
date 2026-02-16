@@ -1,0 +1,7 @@
+Mindfulness of Mind, known in Pali as *cittānupassanā*, is the beautiful practice of observing your own mind with gentle awareness. The word *citta* means "mind" or "heart-mind," while *anupassanā* means "contemplating" or "observing closely" – so we're learning to watch our mental states like a caring observer.
+
+Think of your mind like weather patterns moving across the sky of your awareness. Sometimes angry storm clouds roll in, other times peaceful blue skies appear, and occasionally fog obscures everything. With mindfulness of mind, you're like a meteorologist of your inner world – noting "ah, irritation is here now" or "joy has arisen" without getting swept away by these mental weather systems.
+
+This might mean catching yourself when anxiety starts spiraling and simply recognizing "anxious mind is present" rather than becoming lost in worried thoughts. Or noticing when your mind feels calm and spacious, appreciating that state without grasping at it.
+
+This practice is transformative because it creates space between you and your mental states. Instead of being anger, you observe anger visiting. Instead of being completely identified with sadness, you witness sadness flowing through. This gentle observation gradually loosens the grip these states have on us, leading to greater freedom and peace. As you develop this skill, you'll discover an unshakeable awareness that remains steady through all of mind's changing weather.

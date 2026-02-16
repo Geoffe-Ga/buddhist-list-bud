@@ -1,0 +1,7 @@
+Imagine sitting with a dear friend who always speaks truthfully to you – how safe and trusting that relationship feels. This is the heart of what Buddhists call "non-lying," or in the ancient Pali language, *musavada veramani*, which literally means "refraining from false speech."
+
+This beautiful practice is one of Buddhism's Five Precepts, the gentle guidelines that help us live with greater wisdom and compassion. Non-lying goes beyond simply avoiding big lies – it invites us to speak with complete honesty, even in small matters. When your colleague asks how your weekend was, instead of automatically saying "fine" when it wasn't, you might share authentically or simply say you'd rather not discuss it.
+
+Think of truthful speech like tending a garden. Each honest word plants seeds of trust and clarity, while lies – even tiny white ones – are like weeds that tangle our relationships and cloud our own minds. When we consistently speak truth, we create an environment where genuine connection can flourish.
+
+On the path to awakening, truthful speech purifies our hearts and sharpens our awareness. Lies require mental energy to maintain and create inner conflict between what we know and what we say. By embracing truthfulness, we align our outer expression with our inner reality, creating the clarity and integrity essential for spiritual growth.
