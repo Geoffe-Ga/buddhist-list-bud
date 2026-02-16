@@ -94,6 +94,29 @@ run_check "Complexity analysis" "complexity.sh"
 run_check "Unit tests" "test.sh" --unit
 run_check "Coverage report" "coverage.sh"
 
+# Frontend checks
+if [ -d "$PROJECT_ROOT/frontend" ]; then
+    echo "Running: Frontend lint"
+    if (cd "$PROJECT_ROOT/frontend" && npx eslint . --max-warnings 0 2>&1); then
+        PASSED_CHECKS+=("Frontend lint")
+        echo "✓ Frontend lint passed"
+    else
+        FAILED_CHECKS+=("Frontend lint")
+        echo "✗ Frontend lint failed" >&2
+    fi
+    echo ""
+
+    echo "Running: Frontend typecheck"
+    if (cd "$PROJECT_ROOT/frontend" && npx tsc -b --noEmit 2>&1); then
+        PASSED_CHECKS+=("Frontend typecheck")
+        echo "✓ Frontend typecheck passed"
+    else
+        FAILED_CHECKS+=("Frontend typecheck")
+        echo "✗ Frontend typecheck failed" >&2
+    fi
+    echo ""
+fi
+
 echo "=== Quality Checks Summary ==="
 echo "Passed: ${#PASSED_CHECKS[@]}"
 echo "Failed: ${#FAILED_CHECKS[@]}"

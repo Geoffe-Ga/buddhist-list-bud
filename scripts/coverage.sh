@@ -70,6 +70,7 @@ echo "=== Coverage Report ==="
 PYTEST_ARGS=(
     -v
     --cov=buddhist_list_bud
+    --cov=backend
     --cov-branch
     --cov-report=term-missing
     --cov-fail-under=90
@@ -88,7 +89,7 @@ if $XML_REPORT; then
 fi
 
 # Run tests with coverage
-pytest "${PYTEST_ARGS[@]}" tests/ || {
+python -m pytest "${PYTEST_ARGS[@]}" tests/ backend/tests/ || {
     echo "✗ Coverage below threshold" >&2
     exit 1
 }

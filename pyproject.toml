@@ -59,19 +59,20 @@ addopts = [
     "--strict-markers",
     "--strict-config",
     "--cov=buddhist_list_bud",
+    "--cov=backend",
     "--cov-branch",
     "--cov-report=term-missing:skip-covered",
     "--cov-report=html",
     "--cov-report=xml",
     "--cov-fail-under=90",
 ]
-testpaths = ["tests"]
+testpaths = ["tests", "backend/tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 
 [tool.coverage.run]
-source = ["buddhist_list_bud"]
+source = ["buddhist_list_bud", "backend"]
 branch = true
 omit = [
     "*/tests/*",
@@ -113,6 +114,18 @@ strict_concatenate = true
 module = "tests.*"
 disallow_untyped_defs = false
 
+[[tool.mypy.overrides]]
+module = "backend.tests.*"
+disallow_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = "motor.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "bson.*"
+ignore_missing_imports = true
+
 [tool.ruff]
 line-length = 88
 target-version = "py311"
@@ -135,6 +148,7 @@ ignore = []
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**/*" = ["S101"]  # Allow assert in tests
+"backend/tests/**/*" = ["S101"]  # Allow assert in backend tests
 
 [tool.bandit]
 exclude_dirs = ["tests", "venv", "virtualenv"]
