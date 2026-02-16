@@ -56,6 +56,7 @@ log = logging.getLogger(__name__)
 # Helpers
 # ---------------------------------------------------------------------------
 
+
 def slugify(text: str) -> str:
     """Turn a name into a URL-friendly slug.
 
@@ -126,6 +127,7 @@ def load_essay(slug: str) -> str:
 # Spreadsheet Parsing
 # ---------------------------------------------------------------------------
 
+
 def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
     """Parse the 'Nested Lists' sheet into lists and dhammas.
 
@@ -142,8 +144,8 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
     Returns:
         (lists, dhammas) — each as a list of dicts with slug-based refs.
     """
-    lists = {}   # slug -> list dict
-    dhammas = {} # slug -> dhamma dict
+    lists = {}  # slug -> list dict
+    dhammas = {}  # slug -> dhamma dict
 
     # --- Step 1: Create the 9 major lists from column headers ---
     header_row = df.iloc[0]
@@ -181,11 +183,11 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
     # Known sub-list patterns: regex in Notes that triggers sub-list creation.
     # Matches "Four Stages of Enlightenment", "Five Faculties & Five Powers", etc.
     # Two variants: with Pali in parens, or with a dash/em-dash description.
-    SUBLIST_WITH_PALI = re.compile(
+    sublist_with_pali = re.compile(
         r"^((?:Three|Four|Five|Six|Seven|Eight|Nine|Ten|Twelve|Thirty.?seven)"
         r"\s+[\w\s&/]+?)\s*\(([^)]+)\)"
     )
-    SUBLIST_WITHOUT_PALI = re.compile(
+    sublist_without_pali = re.compile(
         r"^((?:Three|Four|Five|Six|Seven|Eight|Nine|Ten|Twelve|Thirty.?seven)"
         r"\s+[\w\s&/]+?)\s*[\u2014—-]\s"
     )
@@ -239,12 +241,13 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
                     lists[parent_list_slug]["children"].append(dhamma_slug)
 
         # --- Detect sub-list groups from Notes column ---
-        # Match "Five Aggregates (Pañca-khandha)" or "Four Stages of Enlightenment — breaks..."
+        # Match "Five Aggregates (Pañca-khandha)" or
+        # "Four Stages of Enlightenment — breaks..."
         sublist_name = None
         sublist_pali = ""
 
-        match_with_pali = SUBLIST_WITH_PALI.match(notes)
-        match_without_pali = SUBLIST_WITHOUT_PALI.match(notes)
+        match_with_pali = sublist_with_pali.match(notes)
+        match_without_pali = sublist_without_pali.match(notes)
 
         if match_with_pali and expansion:
             sublist_name = match_with_pali.group(1).strip()
@@ -266,7 +269,11 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
                     "source_texts": [],
                     "item_count": 0,
                 }
-                log.info("  Created sub-list: %s (%s)", sublist_name, sublist_pali or "no Pali")
+                log.info(
+                    "  Created sub-list: %s (%s)",
+                    sublist_name,
+                    sublist_pali or "no Pali",
+                )
 
             current_sublist_slug = sublist_slug
 
@@ -274,8 +281,11 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
             if deepest_col is not None and deepest_col in row_dhamma_slugs:
                 current_sublist_parent_dhamma_slug = row_dhamma_slugs[deepest_col]
                 _wire_downstream(
-                    dhammas, lists,
-                    current_sublist_parent_dhamma_slug, sublist_slug, sublist_name,
+                    dhammas,
+                    lists,
+                    current_sublist_parent_dhamma_slug,
+                    sublist_slug,
+                    sublist_name,
                 )
 
         # --- Handle expansion items (column 9) ---
@@ -312,8 +322,11 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
                         }
                         log.info("  Created implicit sub-list: %s", implicit_name)
                         _wire_downstream(
-                            dhammas, lists,
-                            parent_slug, implicit_slug, implicit_name,
+                            dhammas,
+                            lists,
+                            parent_slug,
+                            implicit_slug,
+                            implicit_name,
                         )
                     target_list_slug = implicit_slug
                     current_sublist_slug = implicit_slug
@@ -366,14 +379,18 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
         # Only reset when a different sub-list is detected (handled above)
         # or when we hit a row with no expansion AND the deepest column
         # dhamma changed from the sub-list's parent.
-        if not expansion and current_sublist_slug:
-            # Check if the deepest dhamma on this row is different from
-            # the sub-list's parent — if so, we've left that context
-            if deepest_col is not None and deepest_col in row_dhamma_slugs:
-                new_parent = row_dhamma_slugs[deepest_col]
-                if new_parent != current_sublist_parent_dhamma_slug:
-                    current_sublist_slug = None
-                    current_sublist_parent_dhamma_slug = None
+        # Check if the deepest dhamma on this row is different from
+        # the sub-list's parent — if so, we've left that context
+        if (
+            not expansion
+            and current_sublist_slug
+            and deepest_col is not None
+            and deepest_col in row_dhamma_slugs
+        ):
+            new_parent = row_dhamma_slugs[deepest_col]
+            if new_parent != current_sublist_parent_dhamma_slug:
+                current_sublist_slug = None
+                current_sublist_parent_dhamma_slug = None
 
     # --- Step 3: Detect implicit downstream from column co-occurrence ---
     # When a dhamma in column X co-occurs with items in a deeper column Y,
@@ -386,8 +403,11 @@ def parse_nested_lists_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
 
 
 def _wire_downstream(
-    dhammas: dict, lists: dict,
-    parent_dhamma_slug: str, list_slug: str, list_name: str,
+    dhammas: dict,
+    lists: dict,
+    parent_dhamma_slug: str,
+    list_slug: str,
+    list_name: str,
 ) -> None:
     """Wire up a downstream relationship: parent dhamma -> sub-list.
 
@@ -454,7 +474,7 @@ def _detect_column_downstream(
         for col_idx, slug in active_cols.items():
             if slug not in dhamma_deeper_cols:
                 dhamma_deeper_cols[slug] = {}
-            for deeper_col, deeper_slug in active_cols.items():
+            for deeper_col, _deeper_slug in active_cols.items():
                 if deeper_col > col_idx:
                     dhamma_deeper_cols[slug].setdefault(deeper_col, set()).add(row_idx)
 
@@ -464,7 +484,7 @@ def _detect_column_downstream(
     for dhamma_slug, deeper_map in dhamma_deeper_cols.items():
         if dhamma_slug not in dhammas:
             continue
-        for deeper_col, row_set in deeper_map.items():
+        for deeper_col, _row_set in deeper_map.items():
             if deeper_col not in main_list_columns:
                 continue
             list_slug = main_list_columns[deeper_col]
@@ -481,8 +501,11 @@ def _detect_column_downstream(
             # We keep col 0 -> col 2+ though.
 
             _wire_downstream(
-                dhammas, lists,
-                dhamma_slug, list_slug, lists[list_slug]["name"],
+                dhammas,
+                lists,
+                dhamma_slug,
+                list_slug,
+                lists[list_slug]["name"],
             )
 
     log.info("Detected implicit downstream relationships from column co-occurrence")
@@ -561,6 +584,7 @@ def parse_foundations_sheet(df: pd.DataFrame) -> tuple[list[dict], list[dict]]:
 # Cross-Reference Detection
 # ---------------------------------------------------------------------------
 
+
 def detect_cross_references(dhammas: list[dict]) -> None:
     """Find dhammas that share the same Pali term across different lists.
 
@@ -601,15 +625,17 @@ def detect_cross_references(dhammas: list[dict]) -> None:
                 if da["parent_list_slug"] == db["parent_list_slug"]:
                     continue  # Same list = not a cross-reference
 
+                db_list = db["parent_list_slug"]
+                da_list = da["parent_list_slug"]
                 ref_a = {
                     "ref_slug": slug_b,
                     "ref_type": "dhamma",
-                    "note": f"Shared Pali term '{term}' — also in {db['parent_list_slug']}",
+                    "note": f"Shared Pali '{term}' — also in {db_list}",
                 }
                 ref_b = {
                     "ref_slug": slug_a,
                     "ref_type": "dhamma",
-                    "note": f"Shared Pali term '{term}' — also in {da['parent_list_slug']}",
+                    "note": f"Shared Pali '{term}' — also in {da_list}",
                 }
                 if ref_a not in da["cross_references"]:
                     da["cross_references"].append(ref_a)
@@ -624,6 +650,7 @@ def detect_cross_references(dhammas: list[dict]) -> None:
 # ---------------------------------------------------------------------------
 # Position Assignment
 # ---------------------------------------------------------------------------
+
 
 def assign_positions(lists_data: list[dict], dhammas_data: list[dict]) -> None:
     """Assign position_in_list for each dhamma based on its order in the
@@ -643,9 +670,8 @@ def assign_positions(lists_data: list[dict], dhammas_data: list[dict]) -> None:
 # MongoDB Insertion
 # ---------------------------------------------------------------------------
 
-def seed_database(
-    lists_data: list[dict], dhammas_data: list[dict]
-) -> None:
+
+def seed_database(lists_data: list[dict], dhammas_data: list[dict]) -> None:
     """Insert all lists and dhammas into MongoDB, then resolve slug refs to ObjectIds.
 
     This is where the slug -> ObjectId conversion happens. During parsing, all
@@ -743,11 +769,13 @@ def seed_database(
         for ref in doc.get("upstream_from_slugs", []):
             ref_id = slug_to_id.get(ref.get("ref_slug"))
             if ref_id:
-                upstream.append({
-                    "ref_id": ref_id,
-                    "ref_type": ref["ref_type"],
-                    "relationship_note": ref.get("relationship_note", ""),
-                })
+                upstream.append(
+                    {
+                        "ref_id": ref_id,
+                        "ref_type": ref["ref_type"],
+                        "relationship_note": ref.get("relationship_note", ""),
+                    }
+                )
 
         db.lists.update_one(
             {"_id": doc["_id"]},
@@ -765,31 +793,37 @@ def seed_database(
         for ref in doc.get("downstream_slugs", []):
             ref_id = slug_to_id.get(ref.get("ref_slug"))
             if ref_id:
-                downstream.append({
-                    "ref_id": ref_id,
-                    "ref_type": ref["ref_type"],
-                    "relationship_note": ref.get("relationship_note", ""),
-                })
+                downstream.append(
+                    {
+                        "ref_id": ref_id,
+                        "ref_type": ref["ref_type"],
+                        "relationship_note": ref.get("relationship_note", ""),
+                    }
+                )
 
         upstream = []
         for ref in doc.get("upstream_from_slugs", []):
             ref_id = slug_to_id.get(ref.get("ref_slug"))
             if ref_id:
-                upstream.append({
-                    "ref_id": ref_id,
-                    "ref_type": ref["ref_type"],
-                    "relationship_note": ref.get("relationship_note", ""),
-                })
+                upstream.append(
+                    {
+                        "ref_id": ref_id,
+                        "ref_type": ref["ref_type"],
+                        "relationship_note": ref.get("relationship_note", ""),
+                    }
+                )
 
         cross_refs = []
         for ref in doc.get("cross_references_slugs", []):
             ref_id = dhamma_slug_to_id.get(ref.get("ref_slug"))
             if ref_id:
-                cross_refs.append({
-                    "ref_id": ref_id,
-                    "ref_type": ref["ref_type"],
-                    "note": ref.get("note", ""),
-                })
+                cross_refs.append(
+                    {
+                        "ref_id": ref_id,
+                        "ref_type": ref["ref_type"],
+                        "note": ref.get("note", ""),
+                    }
+                )
 
         db.dhammas.update_one(
             {"_id": doc["_id"]},
@@ -844,6 +878,7 @@ def seed_database(
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
 
 def main() -> None:
     """Entry point: parse spreadsheet, merge data, seed MongoDB."""

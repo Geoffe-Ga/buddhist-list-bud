@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-generate_essays.py — Use Claude Sonnet to generate beginner-friendly essays for each dhamma.
+generate_essays.py — Generate beginner-friendly essays for each dhamma.
 
 Reads the spreadsheet to identify all dhammas, then calls the Anthropic API
 to generate a 150-300 word essay for each one. Essays are saved as individual
@@ -51,8 +51,9 @@ ESSAYS_DIR = Path(__file__).parent / "data" / "essays"
 # Essay generation prompt template.
 # This produces consistent, high-quality essays that are beginner-friendly
 # while being doctrinally accurate to the Theravada tradition.
-ESSAY_PROMPT = """You are a warm, knowledgeable teacher of Theravada Buddhism writing for \
-Western beginners who have no prior knowledge of Buddhist terminology.
+ESSAY_PROMPT = """You are a warm, knowledgeable teacher of \
+Theravada Buddhism writing for Western beginners who have \
+no prior knowledge of Buddhist terminology.
 
 Write a 150-300 word essay about the Buddhist concept: "{name}" (Pali: {pali_name}).
 

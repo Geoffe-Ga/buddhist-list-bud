@@ -133,7 +133,8 @@ def main() -> None:
     check(
         "ANTHROPIC_API_KEY set",
         has_key,
-        "Optional — only needed for generate_essays.py. Set via: export ANTHROPIC_API_KEY=sk-ant-...",
+        "Optional — only needed for generate_essays.py. "
+        "Set via: export ANTHROPIC_API_KEY=sk-ant-...",
     )
     # Don't fail overall for missing API key (it's optional)
 

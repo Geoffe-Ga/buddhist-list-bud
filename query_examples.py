@@ -22,7 +22,6 @@ Usage:
 
 import argparse
 import os
-import sys
 
 from pymongo import MongoClient
 
@@ -39,6 +38,7 @@ def get_db():
 # ---------------------------------------------------------------------------
 # Example 1: Zoom In
 # ---------------------------------------------------------------------------
+
 
 def example_zoom_in(db) -> None:
     """ZOOM IN: Start from a dhamma and find what it expands into.
@@ -82,12 +82,16 @@ def example_zoom_in(db) -> None:
                 ).sort("position_in_list", 1)
 
                 for child in children:
-                    print(f"    {child['position_in_list']}. {child['name']} ({child['pali_name']})")
+                    pos = child["position_in_list"]
+                    name = child["name"]
+                    pali = child["pali_name"]
+                    print(f"    {pos}. {name} ({pali})")
 
 
 # ---------------------------------------------------------------------------
 # Example 2: Zoom Out
 # ---------------------------------------------------------------------------
+
 
 def example_zoom_out(db) -> None:
     """ZOOM OUT: Start from a sub-list and find which dhamma leads to it.
@@ -130,6 +134,7 @@ def example_zoom_out(db) -> None:
 # ---------------------------------------------------------------------------
 # Example 3: Fractal Path (Walk to Root)
 # ---------------------------------------------------------------------------
+
 
 def example_fractal_path(db) -> None:
     """FRACTAL PATH: Walk upstream recursively from a deep dhamma to the root.
@@ -199,6 +204,7 @@ def example_fractal_path(db) -> None:
 # Example 4: Cross-References
 # ---------------------------------------------------------------------------
 
+
 def example_cross_refs(db) -> None:
     """CROSS-REFERENCES: Find where the same concept appears in different lists.
 
@@ -211,9 +217,7 @@ def example_cross_refs(db) -> None:
     print("=" * 60)
 
     # Find dhammas that have cross-references
-    with_xrefs = db.dhammas.find(
-        {"cross_references.0": {"$exists": True}}
-    ).limit(5)
+    with_xrefs = db.dhammas.find({"cross_references.0": {"$exists": True}}).limit(5)
 
     found_any = False
     for d in with_xrefs:
@@ -241,6 +245,7 @@ def example_cross_refs(db) -> None:
 # Example 5: Root Lists (Orphans)
 # ---------------------------------------------------------------------------
 
+
 def example_root_lists(db) -> None:
     """ROOT LISTS: Find all lists with no upstream parent.
 
@@ -253,7 +258,12 @@ def example_root_lists(db) -> None:
     print("=" * 60)
 
     roots = db.lists.find(
-        {"$or": [{"upstream_from": {"$size": 0}}, {"upstream_from": {"$exists": False}}]}
+        {
+            "$or": [
+                {"upstream_from": {"$size": 0}},
+                {"upstream_from": {"$exists": False}},
+            ]
+        }
     ).sort("name", 1)
 
     print()
@@ -266,6 +276,7 @@ def example_root_lists(db) -> None:
 # ---------------------------------------------------------------------------
 # Example 6: Full Tree Traversal
 # ---------------------------------------------------------------------------
+
 
 def example_full_tree(db) -> None:
     """FULL TREE: Recursive depth-first traversal from a root list.
@@ -341,9 +352,7 @@ def main() -> None:
         choices=list(EXAMPLES.keys()),
         help="Run a specific example (default: all)",
     )
-    parser.add_argument(
-        "--list", action="store_true", help="List available examples"
-    )
+    parser.add_argument("--list", action="store_true", help="List available examples")
     args = parser.parse_args()
 
     if args.list:
@@ -361,7 +370,7 @@ def main() -> None:
         print("\n" + "#" * 60)
         print("  BUDDHIST DHAMMAS — QUERY EXAMPLES")
         print("#" * 60)
-        for name, (desc, func) in EXAMPLES.items():
+        for _name, (_desc, func) in EXAMPLES.items():
             func(db)
 
     print()

@@ -29,9 +29,8 @@ dev = [
     "isort>=5.12.0",
     "mypy>=1.5.0",
     "bandit>=1.7.5",
-    "safety>=3.0.0",
+    "pip-audit>=2.6.0",
     "radon>=6.0.0",
-    "mutmut>=2.4.0",
     "pre-commit>=3.4.0",
 ]
 
@@ -140,9 +139,3 @@ ignore = []
 [tool.bandit]
 exclude_dirs = ["tests", "venv", "virtualenv"]
 skips = ["B101"]  # Skip assert_used in tests
-
-[tool.mutmut]
-paths_to_mutate = "buddhist_list_bud/"
-backup = false
-runner = "python -m pytest --exitfirst --quiet --tb=no"
-tests_dir = "tests/"

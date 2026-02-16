@@ -50,7 +50,6 @@ class ValidationResult:
     def add(self, name: str, passed: bool, detail: str = "") -> None:
         """Record a check result."""
         self.checks.append((name, passed, detail))
-        status = "PASS" if passed else "FAIL"
         icon = "\u2705" if passed else "\u274c"
         msg = f"  {icon} {name}"
         if detail:
@@ -100,7 +99,9 @@ def validate(verbose: bool = False) -> bool:
     list_by_id = {doc["_id"]: doc for doc in all_lists}
     dhamma_by_id = {doc["_id"]: doc for doc in all_dhammas}
 
-    print(f"\nValidating database: {len(all_lists)} lists, {len(all_dhammas)} dhammas\n")
+    print(
+        f"\nValidating database: {len(all_lists)} lists, {len(all_dhammas)} dhammas\n"
+    )
 
     # --- Check 1: Database not empty ---
     result.add(
@@ -130,7 +131,11 @@ def validate(verbose: bool = False) -> bool:
     result.add(
         "All dhammas have valid parent list",
         len(orphan_dhammas) == 0,
-        f"{len(orphan_dhammas)} orphans: {orphan_dhammas[:5]}" if orphan_dhammas else "",
+        (
+            f"{len(orphan_dhammas)} orphans: {orphan_dhammas[:5]}"
+            if orphan_dhammas
+            else ""
+        ),
     )
 
     # --- Check 4: Bidirectional parent-child consistency ---
@@ -259,9 +264,11 @@ def validate(verbose: bool = False) -> bool:
     result.add(
         "All slugs unique",
         not dup_list and not dup_dhamma,
-        f"list dupes={dup_list}, dhamma dupes={dup_dhamma}"
-        if dup_list or dup_dhamma
-        else "",
+        (
+            f"list dupes={dup_list}, dhamma dupes={dup_dhamma}"
+            if dup_list or dup_dhamma
+            else ""
+        ),
     )
 
     # --- Check 12: Essay coverage ---
