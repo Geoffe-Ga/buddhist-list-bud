@@ -41,10 +41,13 @@
   color: var(--accent-rust);
 }
 
-.breadcrumb-trail {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.breadcrumb-sep {
+  color: var(--text-muted);
+  margin: 0 0.2rem;
+}
+
+.breadcrumb-current {
+  color: var(--text-primary);
   font-style: italic;
 }
 

@@ -19,6 +19,7 @@ export interface NavigateResponse {
   down: NodeSummary | null
   left: NodeSummary[]
   right: NodeSummary[]
+  breadcrumbs: NodeSummary[]
 }
 
 export interface ListSummary {

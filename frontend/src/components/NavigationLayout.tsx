@@ -1,4 +1,4 @@
-import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef, useState } from 'react'
+import { forwardRef, useCallback, useEffect, useImperativeHandle, useState } from 'react'
 import { fetchLists, fetchNavigate } from '../api/navigate'
 import type { NavigateResponse, NodeSummary } from '../types'
 import './NavigationLayout.css'
@@ -11,18 +11,12 @@ const NavigationLayout = forwardRef<NavigationLayoutHandle>(function NavigationL
   const [data, setData] = useState<NavigateResponse | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [history, setHistory] = useState<{ id: string; name: string }[]>([])
-  const dataRef = useRef<NavigateResponse | null>(null)
 
-  const navigateTo = useCallback(async (id: string, addToHistory = true) => {
+  const navigateTo = useCallback(async (id: string) => {
     setLoading(true)
     setError(null)
     try {
       const result = await fetchNavigate(id)
-      if (addToHistory && dataRef.current) {
-        setHistory((h) => [...h, { id: dataRef.current!.current.id, name: dataRef.current!.current.name }])
-      }
-      dataRef.current = result
       setData(result)
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Navigation failed')
@@ -41,7 +35,7 @@ const NavigationLayout = forwardRef<NavigationLayoutHandle>(function NavigationL
         if (cancelled) return
         const fnt = lists.find((l) => l.slug === 'four-noble-truths')
         if (fnt) {
-          await navigateTo(fnt.id, false)
+          await navigateTo(fnt.id)
         }
       } catch (e) {
         if (!cancelled) {
@@ -56,21 +50,6 @@ const NavigationLayout = forwardRef<NavigationLayoutHandle>(function NavigationL
 
   const handleNavigate = (node: NodeSummary) => {
     navigateTo(node.id)
-  }
-
-  const handleBack = () => {
-    if (history.length === 0) return
-    const prev = history[history.length - 1]
-    setHistory((h) => h.slice(0, -1))
-    setLoading(true)
-    setError(null)
-    fetchNavigate(prev.id)
-      .then((result) => {
-        dataRef.current = result
-        setData(result)
-      })
-      .catch((e) => setError(e instanceof Error ? e.message : 'Navigation failed'))
-      .finally(() => setLoading(false))
   }
 
   if (error) {
@@ -88,14 +67,18 @@ const NavigationLayout = forwardRef<NavigationLayoutHandle>(function NavigationL
 
   return (
     <div className="nav-layout">
-      {history.length > 0 && (
+      {data.breadcrumbs.length > 0 && (
         <div className="breadcrumbs">
-          <button className="breadcrumb-btn" onClick={handleBack}>
-            &larr; Back
-          </button>
-          <span className="breadcrumb-trail">
-            {history.map((h) => h.name).join(' > ')} &gt; {data.current.name}
-          </span>
+          {data.breadcrumbs.map((crumb, i) => (
+            <span key={crumb.id}>
+              {i > 0 && <span className="breadcrumb-sep">&rsaquo;</span>}
+              <button className="breadcrumb-btn" onClick={() => handleNavigate(crumb)}>
+                {crumb.name}
+              </button>
+            </span>
+          ))}
+          <span className="breadcrumb-sep">&rsaquo;</span>
+          <span className="breadcrumb-current">{data.current.name}</span>
         </div>
       )}
 
