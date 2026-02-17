@@ -1,6 +1,8 @@
-# Buddhist Dhammas — Fractal Knowledge Graph
+# Buddhist Dharma Navigator
 
-A MongoDB database that models Theravada Buddhist doctrine as a fractal knowledge graph. Each teaching can "zoom in" to reveal deeper layers of interconnected concepts.
+A fractal knowledge graph of Theravada Buddhist doctrine, presented as an interactive web application. Navigate through interconnected teachings — from the Four Noble Truths down to individual meditation factors — using a directional interface that mirrors the nested structure of the Dharma itself.
+
+**Live:** [dharma.aptitude.guru](https://dharma.aptitude.guru)
 
 ```
 Four Noble Truths
@@ -11,39 +13,77 @@ Four Noble Truths
                   └─ Sensual Desire
 ```
 
-## Quick Start
+## Features
+
+- **Directional navigation** — move up, down, left, and right through the teaching hierarchy
+- **Search** — find any list or dhamma by English or Pali name
+- **AI-generated essays** — each teaching includes a contextual essay generated via Claude
+- **Responsive design** — works on desktop and mobile
+- **22 lists, 118 dhammas** — covering core Theravada doctrine
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React, TypeScript, Vite |
+| Backend | FastAPI, Python 3.12 |
+| Database | MongoDB (Atlas) |
+| Hosting | Railway |
+
+## Local Development
 
 ```bash
-docker compose up -d              # Start MongoDB
-pip install -r requirements.txt   # Install dependencies
-python seed_db.py                 # Seed the database
-python query_examples.py          # Explore the graph
+# Prerequisites: Node 20+, Python 3.12+, MongoDB running locally
+
+# Backend
+pip install -r requirements.txt
+python seed_db.py                        # Seed local MongoDB
+
+# Frontend
+cd frontend && npm install && npm run dev
+
+# Backend (separate terminal)
+python -m uvicorn backend.app.main:app --reload
 ```
 
-See [QUICKSTART.md](QUICKSTART.md) for the full setup guide and [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) for architecture details.
+## Quality Checks
 
-## Data Model
+```bash
+bash scripts/check-all.sh   # Runs all 9 checks: ruff, black, mypy, bandit, pytest, etc.
+```
 
-Two MongoDB collections connected by three relationship types:
+- 24 tests, 93.95% backend coverage
+- Linting (ruff), formatting (black), type checking (mypy), security scanning (bandit)
 
-- **`lists`** — Named groups of teachings (e.g., Noble Eightfold Path)
-- **`dhammas`** — Individual teachings (e.g., Right Concentration)
+## Data Pipeline
 
-Relationships: **parent-child** (containment), **upstream-downstream** (fractal zoom), and **cross-references** (same concept in different contexts).
+1. `data/buddhist_dhammas.xlsx` — source spreadsheet with lists, dhammas, and relationships
+2. `seed_db.py` — parses the spreadsheet, resolves slug-based references to ObjectIds, seeds MongoDB, and applies editorial corrections
+3. `generate_essays.py` — generates essays for each dhamma via Claude API (stored in `data/essays/`)
 
-## Scripts
+## Project Structure
 
-| Script | Purpose |
-|--------|---------|
-| `check_setup.py` | Verify prerequisites |
-| `generate_essays.py` | Generate essays via Claude API (~$0.50-1.00) |
-| `seed_db.py` | Parse spreadsheet and seed MongoDB |
-| `validate_db.py` | Check data integrity |
-| `query_examples.py` | Demonstrate query patterns |
-
-## Development
-
-This project was scaffolded with [Start Green Stay Green](https://github.com/Geoffe-Ga/start_green_stay_green) and includes quality tooling (pytest, ruff, black, mypy, bandit). See `scripts/` for quality check runners.
+```
+├── backend/
+│   ├── app/
+│   │   ├── main.py          # FastAPI app, SPA serving
+│   │   ├── db.py            # MongoDB connection (Motor)
+│   │   ├── models.py        # Pydantic models
+│   │   └── routes/          # API endpoints
+│   └── tests/               # pytest test suite
+├── frontend/
+│   ├── src/
+│   │   ├── App.tsx           # Search bar, header, layout
+│   │   ├── components/       # NavigationLayout
+│   │   ├── api/              # API client functions
+│   │   └── types.ts          # TypeScript interfaces
+│   └── index.html
+├── data/                     # Source spreadsheet and essays
+├── scripts/                  # Quality check scripts
+├── seed_db.py                # Database seeder
+├── Dockerfile                # Multi-stage build for Railway
+└── requirements.txt          # Python dependencies
+```
 
 ## License
 

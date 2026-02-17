@@ -88,6 +88,7 @@ function App() {
           )}
         </div>
       </header>
+      <p className="ai-disclaimer">A product of Dharma-ficial Intelligence: Site content created by AI</p>
       <NavigationLayout ref={navRef} />
     </div>
   )
