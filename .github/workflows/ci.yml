@@ -44,8 +44,8 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install -e .
           pip install pytest pytest-cov pytest-asyncio ruff black isort mypy bandit pip-audit radon httpx
+          pip install pandas openpyxl pymongo
 
       - name: Install frontend dependencies
         run: npm ci
