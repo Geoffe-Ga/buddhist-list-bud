@@ -6,6 +6,45 @@ from backend.app.models import CurrentNode, NavigateResponse, NodeSummary
 
 router = APIRouter(prefix="/api")
 
+MAX_BREADCRUMB_DEPTH = 20
+
+
+async def _build_breadcrumbs(node_id: ObjectId, node_type: str) -> list[NodeSummary]:
+    """Walk up the parent chain to build root-to-current path."""
+    db = get_db()
+    crumbs: list[NodeSummary] = []
+    cur_id = node_id
+    cur_type = node_type
+
+    for _ in range(MAX_BREADCRUMB_DEPTH):
+        if cur_type == "dhamma":
+            doc = await db.dhammas.find_one(
+                {"_id": cur_id}, {"name": 1, "parent_list_id": 1}
+            )
+            if not doc:
+                break
+            crumbs.append(NodeSummary(id=str(cur_id), name=doc["name"], type="dhamma"))
+            cur_id = doc["parent_list_id"]
+            cur_type = "list"
+        else:
+            doc = await db.lists.find_one(
+                {"_id": cur_id}, {"name": 1, "upstream_from": 1}
+            )
+            if not doc:
+                break
+            crumbs.append(NodeSummary(id=str(cur_id), name=doc["name"], type="list"))
+            upstream = doc.get("upstream_from", [])
+            if not upstream:
+                break
+            cur_id = upstream[0]["ref_id"]
+            cur_type = "dhamma"
+
+    crumbs.reverse()
+    # Remove the last element (current node) — it's shown in the content area
+    if crumbs:
+        crumbs.pop()
+    return crumbs
+
 
 @router.get("/navigate/{node_id}")
 async def navigate(node_id: str) -> NavigateResponse:
@@ -57,6 +96,8 @@ async def _navigate_list(doc: dict) -> NavigateResponse:
                     NodeSummary(id=str(cid), name=child_map[cid], type="dhamma")
                 )
 
+    breadcrumbs = await _build_breadcrumbs(doc["_id"], "list")
+
     return NavigateResponse(
         current=CurrentNode(
             id=str(doc["_id"]),
@@ -69,6 +110,7 @@ async def _navigate_list(doc: dict) -> NavigateResponse:
         down=None,
         left=left,
         right=right,
+        breadcrumbs=breadcrumbs,
     )
 
 
@@ -113,6 +155,8 @@ async def _navigate_dhamma(doc: dict) -> NavigateResponse:
         else:
             down_node = summary
 
+    breadcrumbs = await _build_breadcrumbs(doc["_id"], "dhamma")
+
     return NavigateResponse(
         current=CurrentNode(
             id=str(doc["_id"]),
@@ -125,4 +169,5 @@ async def _navigate_dhamma(doc: dict) -> NavigateResponse:
         down=down_node,
         left=left,
         right=right,
+        breadcrumbs=breadcrumbs,
     )

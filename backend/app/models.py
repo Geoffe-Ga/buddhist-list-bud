@@ -22,6 +22,7 @@ class NavigateResponse(BaseModel):
     down: NodeSummary | None = None
     left: list[NodeSummary] = []
     right: list[NodeSummary] = []
+    breadcrumbs: list[NodeSummary] = []
 
 
 class ListSummary(BaseModel):
