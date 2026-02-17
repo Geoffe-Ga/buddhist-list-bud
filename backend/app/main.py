@@ -1,3 +1,5 @@
+from collections.abc import AsyncIterator
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI
@@ -5,9 +7,21 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
+from backend.app.db import get_db
 from backend.app.routes import dhammas, lists, navigate, search
 
-app = FastAPI(title="Buddhist Dharma Navigation API")
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
+    db = get_db()
+    await db.dhammas.create_index([("parent_list_id", 1), ("position_in_list", 1)])
+    await db.dhammas.create_index("name")
+    await db.lists.create_index("name")
+    yield
+
+
+app = FastAPI(title="Buddhist Dharma Navigation API", lifespan=lifespan)
+
 
 app.add_middleware(
     CORSMiddleware,

@@ -7,11 +7,6 @@ from backend.app.models import CurrentNode, NavigateResponse, NodeSummary
 router = APIRouter(prefix="/api")
 
 
-async def _resolve_name(collection: str, oid: ObjectId) -> str | None:
-    doc = await get_db()[collection].find_one({"_id": oid}, {"name": 1})
-    return doc["name"] if doc else None
-
-
 @router.get("/navigate/{node_id}")
 async def navigate(node_id: str) -> NavigateResponse:
     db = get_db()
@@ -37,23 +32,30 @@ async def navigate(node_id: str) -> NavigateResponse:
 async def _navigate_list(doc: dict) -> NavigateResponse:
     db = get_db()
 
-    # Left: upstream dhammas (dhammas that zoom into this list)
+    # Left: upstream dhammas — batch fetch all at once
     left: list[NodeSummary] = []
-    for ref in doc.get("upstream_from", []):
-        name = await _resolve_name("dhammas", ref["ref_id"])
-        if name:
-            left.append(NodeSummary(id=str(ref["ref_id"]), name=name, type="dhamma"))
+    upstream_ids = [ref["ref_id"] for ref in doc.get("upstream_from", [])]
+    if upstream_ids:
+        cursor = db.dhammas.find({"_id": {"$in": upstream_ids}}, {"name": 1})
+        name_map = {d["_id"]: d["name"] async for d in cursor}
+        for uid in upstream_ids:
+            if uid in name_map:
+                left.append(NodeSummary(id=str(uid), name=name_map[uid], type="dhamma"))
 
-    # Right: children dhammas
+    # Right: children dhammas — batch fetch all at once
     right: list[NodeSummary] = []
-    for child_id in doc.get("children", []):
-        child = await db.dhammas.find_one(
-            {"_id": child_id}, {"name": 1, "position_in_list": 1}
+    child_ids = doc.get("children", [])
+    if child_ids:
+        cursor = db.dhammas.find(
+            {"_id": {"$in": child_ids}},
+            {"name": 1, "position_in_list": 1},
         )
-        if child:
-            right.append(
-                NodeSummary(id=str(child_id), name=child["name"], type="dhamma")
-            )
+        child_map = {d["_id"]: d["name"] async for d in cursor}
+        for cid in child_ids:
+            if cid in child_map:
+                right.append(
+                    NodeSummary(id=str(cid), name=child_map[cid], type="dhamma")
+                )
 
     return NavigateResponse(
         current=CurrentNode(
@@ -72,40 +74,44 @@ async def _navigate_list(doc: dict) -> NavigateResponse:
 
 async def _navigate_dhamma(doc: dict) -> NavigateResponse:
     db = get_db()
+    parent_id = doc["parent_list_id"]
+    pos = doc.get("position_in_list", 0)
+
+    # Batch: parent list + downstream lists in one query
+    downstream_ids = [ref["ref_id"] for ref in doc.get("downstream", [])]
+    all_list_ids = [parent_id, *downstream_ids]
+    cursor = db.lists.find({"_id": {"$in": all_list_ids}}, {"name": 1})
+    list_map = {d["_id"]: d["name"] async for d in cursor}
 
     # Left: parent list
     left: list[NodeSummary] = []
-    parent = await db.lists.find_one({"_id": doc["parent_list_id"]}, {"name": 1})
-    if parent:
+    if parent_id in list_map:
         left.append(
-            NodeSummary(id=str(parent["_id"]), name=parent["name"], type="list")
+            NodeSummary(id=str(parent_id), name=list_map[parent_id], type="list")
         )
 
-    # Right: downstream lists
+    # Right: downstream lists (preserve order)
     right: list[NodeSummary] = []
-    for ref in doc.get("downstream", []):
-        list_doc = await db.lists.find_one({"_id": ref["ref_id"]}, {"name": 1})
-        if list_doc:
-            right.append(
-                NodeSummary(
-                    id=str(ref["ref_id"]),
-                    name=list_doc["name"],
-                    type="list",
-                )
-            )
+    for did in downstream_ids:
+        if did in list_map:
+            right.append(NodeSummary(id=str(did), name=list_map[did], type="list"))
 
-    # Up/Down: siblings by position_in_list
-    pos = doc.get("position_in_list", 0)
-    parent_id = doc["parent_list_id"]
-
-    up_doc = await db.dhammas.find_one(
-        {"parent_list_id": parent_id, "position_in_list": pos - 1},
-        {"name": 1},
+    # Up/Down siblings — single query fetching both neighbors
+    siblings = db.dhammas.find(
+        {
+            "parent_list_id": parent_id,
+            "position_in_list": {"$in": [pos - 1, pos + 1]},
+        },
+        {"name": 1, "position_in_list": 1},
     )
-    down_doc = await db.dhammas.find_one(
-        {"parent_list_id": parent_id, "position_in_list": pos + 1},
-        {"name": 1},
-    )
+    up_node = None
+    down_node = None
+    async for sib in siblings:
+        summary = NodeSummary(id=str(sib["_id"]), name=sib["name"])
+        if sib["position_in_list"] == pos - 1:
+            up_node = summary
+        else:
+            down_node = summary
 
     return NavigateResponse(
         current=CurrentNode(
@@ -115,14 +121,8 @@ async def _navigate_dhamma(doc: dict) -> NavigateResponse:
             pali_name=doc.get("pali_name", ""),
             essay=doc.get("essay"),
         ),
-        up=(
-            NodeSummary(id=str(up_doc["_id"]), name=up_doc["name"]) if up_doc else None
-        ),
-        down=(
-            NodeSummary(id=str(down_doc["_id"]), name=down_doc["name"])
-            if down_doc
-            else None
-        ),
+        up=up_node,
+        down=down_node,
         left=left,
         right=right,
     )
