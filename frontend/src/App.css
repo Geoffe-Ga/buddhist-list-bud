@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.6rem 1.5rem;
+  gap: 1rem;
   background: var(--bg-warm);
   border-bottom: 1px solid var(--border);
 }
@@ -20,10 +21,11 @@
 }
 
 .app-logo {
-  height: 2rem;
-  width: 2rem;
-  object-fit: cover;
+  height: 2.5rem;
+  width: 2.5rem;
+  object-fit: contain;
   border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .app-header h2 {
@@ -41,11 +43,20 @@
   }
 
   .app-logo {
-    height: 2.2rem;
-    width: 2.2rem;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }
 
+.ai-disclaimer {
+  margin: 0;
+  padding: 0.3rem 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--text-muted, #999);
+  letter-spacing: 0.03em;
+  font-style: italic;
+}
 
 .search-container {
   position: relative;
