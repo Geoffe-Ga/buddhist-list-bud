@@ -1,4 +1,5 @@
 import { useCallback, useRef, useState, useEffect } from 'react'
+import LandingPage from './components/LandingPage'
 import NavigationLayout from './components/NavigationLayout'
 import type { NavigationLayoutHandle } from './components/NavigationLayout'
 import { fetchSearch } from './api/navigate'
@@ -6,6 +7,7 @@ import type { SearchResult } from './types'
 import './App.css'
 
 function App() {
+  const [showLanding, setShowLanding] = useState(true)
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<SearchResult[]>([])
   const [showDropdown, setShowDropdown] = useState(false)
@@ -58,11 +60,21 @@ function App() {
     }
   }
 
+  if (showLanding) {
+    return <LandingPage onEnter={() => setShowLanding(false)} />
+  }
+
   return (
     <div className="app">
       <header className="app-header">
         <div className="app-title">
-          <img src="/robot-buddha.png" alt="Buddhist Dharma Navigator" className="app-logo" />
+          <img
+            src="/robot-buddha.png"
+            alt="Buddhist Dharma Navigator"
+            className="app-logo"
+            onClick={() => setShowLanding(true)}
+            style={{ cursor: 'pointer' }}
+          />
           <h2>Buddhist Dharma Navigator</h2>
         </div>
         <div className="search-container" ref={searchRef}>

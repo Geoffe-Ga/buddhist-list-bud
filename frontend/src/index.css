@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Quattrocento+Sans:wght@400;700&display=swap');
 
 :root {
-  /* Warm parchment palette */
-  --bg-deep: #1c1a17;
-  --bg-surface: #f6f1ea;
-  --bg-warm: #ede5d8;
-  --bg-accent: #e2d7c6;
-  --text-primary: #2c2418;
-  --text-secondary: #6b5d4f;
-  --text-muted: #9a8b7a;
-  --border: #d4c8b6;
-  --border-subtle: #e2d9cc;
+  /* Bronze parchment palette — matched to robot buddha artwork */
+  --bg-deep: #2c2418;
+  --bg-surface: #f0e6d3;
+  --bg-warm: #e4d5be;
+  --bg-accent: #d4c4a8;
+  --bg-paper: #f5edd9;
+  --text-primary: #3d3225;
+  --text-secondary: #6b5a42;
+  --text-muted: #9a8868;
+  --border: #c4b08a;
+  --border-subtle: #d9cab0;
   --accent-ochre: #b8860b;
-  --accent-rust: #a0522d;
-  --accent-sage: #6b7f5e;
-  --shadow-soft: rgba(44, 36, 24, 0.06);
-  --shadow-medium: rgba(44, 36, 24, 0.12);
+  --accent-rust: #8b6914;
+  --accent-sage: #7a8b5e;
+  --accent-bronze: #8b7355;
+  --shadow-soft: rgba(60, 50, 37, 0.06);
+  --shadow-medium: rgba(60, 50, 37, 0.12);
 
   /* Typography */
   --font-display: 'Cormorant Garamond', 'Palatino Linotype', Palatino, serif;
