@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useRef, useState, useEffect } from 'react'
 import NavigationLayout from './components/NavigationLayout'
 import type { NavigationLayoutHandle } from './components/NavigationLayout'
 import { fetchSearch } from './api/navigate'
@@ -6,20 +6,12 @@ import type { SearchResult } from './types'
 import './App.css'
 
 function App() {
-  const [apiStatus, setApiStatus] = useState<string>('checking...')
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<SearchResult[]>([])
   const [showDropdown, setShowDropdown] = useState(false)
   const navRef = useRef<NavigationLayoutHandle>(null)
   const searchRef = useRef<HTMLDivElement>(null)
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(null)
-
-  useEffect(() => {
-    fetch('/api/health')
-      .then((r) => r.json())
-      .then((data) => setApiStatus(data.status))
-      .catch(() => setApiStatus('disconnected'))
-  }, [])
 
   const handleSearch = useCallback((value: string) => {
     setQuery(value)
@@ -92,9 +84,6 @@ function App() {
             </ul>
           )}
         </div>
-        <span className={`status ${apiStatus === 'ok' ? 'connected' : 'error'}`}>
-          API: {apiStatus}
-        </span>
       </header>
       <NavigationLayout ref={navRef} />
     </div>

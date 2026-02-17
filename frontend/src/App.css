@@ -22,24 +22,6 @@
   letter-spacing: 0.02em;
 }
 
-.status {
-  font-size: 0.7rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 700;
-}
-
-.status.connected {
-  background: rgba(107, 127, 94, 0.15);
-  color: var(--accent-sage);
-}
-
-.status.error {
-  background: rgba(160, 82, 45, 0.12);
-  color: var(--accent-rust);
-}
 
 .search-container {
   position: relative;
