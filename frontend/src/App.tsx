@@ -102,6 +102,11 @@ function App() {
       </header>
       <p className="ai-disclaimer">A product of Dharma-ficial Intelligence: Site content created by AI</p>
       <NavigationLayout ref={navRef} />
+      <footer className="app-footer">
+        <a href="https://aptitude.guru" target="_blank" rel="noopener noreferrer">Aptitude Course</a>
+        <span className="footer-sep">&middot;</span>
+        <a href="https://blog.aptitude.guru" target="_blank" rel="noopener noreferrer">Blog</a>
+      </footer>
     </div>
   )
 }

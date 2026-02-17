@@ -119,3 +119,28 @@
 .search-result:hover {
   background: var(--bg-warm, #f5f0eb);
 }
+
+.app-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-warm);
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+}
+
+.app-footer a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.app-footer a:hover {
+  color: var(--accent-ochre);
+}
+
+.footer-sep {
+  color: var(--text-muted);
+}
