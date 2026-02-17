@@ -1,0 +1,333 @@
+/* ========================================
+   Navigation Layout — Manuscript aesthetic
+   ======================================== */
+
+.nav-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-height: 0;
+  background: var(--bg-accent);
+}
+
+/* ---- Breadcrumbs ---- */
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 56rem;
+  padding: 0.4rem 1.25rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: var(--bg-warm);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.breadcrumb-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-family: var(--font-body);
+  color: var(--accent-ochre);
+  padding: 0.15rem 0;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+
+.breadcrumb-btn:hover {
+  color: var(--accent-rust);
+}
+
+.breadcrumb-trail {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: italic;
+}
+
+/* ---- Core three-column layout ---- */
+.nav-middle {
+  display: flex;
+  align-items: stretch;
+  flex: 1;
+  width: 100%;
+  max-width: 56rem;
+  min-height: 0;
+  background: var(--bg-surface);
+  box-shadow: 0 0 2rem var(--shadow-soft);
+}
+
+/* ---- Up / Down edges ---- */
+.nav-edge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-up,
+.nav-down {
+  padding: 0.4rem 1rem;
+  min-height: 44px;
+  width: 100%;
+  max-width: 56rem;
+}
+
+/* ---- Left / Right edges: VERTICAL STACK ---- */
+.nav-left,
+.nav-right {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  padding: 0;
+  flex-shrink: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: var(--bg-warm);
+}
+
+.nav-left {
+  border-right: 1px solid var(--border);
+}
+
+.nav-left .nav-btn-vertical {
+  transform: rotate(180deg);
+}
+
+.nav-right {
+  border-left: 1px solid var(--border);
+}
+
+/* ---- Content area ---- */
+.content-area {
+  flex: 1;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  min-width: 0;
+  overflow-y: auto;
+}
+
+.content-area h1 {
+  margin: 0 0 0.15rem;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+.content-area .pali {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--text-muted);
+  margin: 0 0 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+}
+
+.content-area .description {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-area .essay {
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: var(--text-primary);
+  max-width: 540px;
+  margin: 0 auto;
+  white-space: pre-wrap;
+}
+
+/* ---- List items in content area ---- */
+.list-items {
+  list-style: none;
+  counter-reset: list-counter;
+  padding: 0;
+  margin: 0 auto 2rem;
+  max-width: 540px;
+  text-align: left;
+}
+
+.list-items li {
+  counter-increment: list-counter;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.list-items li:last-child {
+  border-bottom: none;
+}
+
+.list-item-link {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 0.5rem 0.75rem 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--accent-ochre);
+  text-align: left;
+  transition: color 0.2s;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+.list-item-link::before {
+  content: counter(list-counter) ". ";
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.list-item-link:hover {
+  color: var(--accent-rust);
+}
+
+/* ---- Horizontal buttons (up/down siblings) ---- */
+.nav-btn-horizontal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--bg-warm);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  letter-spacing: 0.01em;
+}
+
+.nav-btn-horizontal:hover {
+  background: var(--bg-accent);
+  color: var(--text-primary);
+  border-color: var(--accent-ochre);
+}
+
+.nav-btn-horizontal .arrow {
+  font-size: 0.65rem;
+  opacity: 0.5;
+}
+
+/* ---- Vertical nav buttons (left/right edges) ---- */
+.nav-btn-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 0.5rem;
+  border: none;
+  border-bottom: 1px solid var(--border-subtle);
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  white-space: normal;
+  flex: 1;
+  letter-spacing: 0.03em;
+  min-width: 3.2rem;
+}
+
+.nav-btn-vertical:last-child {
+  border-bottom: none;
+}
+
+.nav-btn-vertical:hover {
+  background: var(--bg-accent);
+  color: var(--text-primary);
+}
+
+.nav-btn-vertical .label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* ---- Loading ---- */
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 1.2rem;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+}
+
+.spinner {
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent-ochre);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ---- Error ---- */
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: var(--accent-rust);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.05rem;
+  padding: 2rem;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .content-area {
+    padding: 1.5rem 1rem;
+  }
+
+  .content-area h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-area .essay {
+    font-size: 1.05rem;
+  }
+
+  .nav-btn-vertical {
+    font-size: 0.82rem;
+    padding: 0.65rem 0.4rem;
+    min-width: 2.6rem;
+  }
+
+  .list-item-link {
+    font-size: 1rem;
+  }
+
+  .breadcrumbs {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.72rem;
+  }
+}

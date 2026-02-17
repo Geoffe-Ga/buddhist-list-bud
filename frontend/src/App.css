@@ -13,6 +13,19 @@
   border-bottom: 1px solid var(--border);
 }
 
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.app-logo {
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .app-header h2 {
   margin: 0;
   font-family: var(--font-display);
@@ -20,6 +33,17 @@
   font-weight: 600;
   color: var(--text-primary);
   letter-spacing: 0.02em;
+}
+
+@media (max-width: 600px) {
+  .app-header h2 {
+    display: none;
+  }
+
+  .app-logo {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
 }
 
 

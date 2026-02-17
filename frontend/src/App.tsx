@@ -61,7 +61,10 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h2>Buddhist Dharma Navigator</h2>
+        <div className="app-title">
+          <img src="/robot-buddha.png" alt="Buddhist Dharma Navigator" className="app-logo" />
+          <h2>Buddhist Dharma Navigator</h2>
+        </div>
         <div className="search-container" ref={searchRef}>
           <input
             type="text"
