@@ -1,0 +1,7 @@
+Concentration in Buddhism is like having a calm, steady mind that can focus clearly on whatever you choose, without being pulled away by distractions or restlessness. It's that quality of mental stability and one-pointed attention that allows you to see things as they really are.
+
+In the ancient Pali language, this is called *samadhi* (pronounced "sah-MAH-dee"), which literally means "to collect" or "to bring together." Just as you might collect scattered puzzle pieces into one place to see the complete picture, concentration gathers your scattered thoughts and emotions into a unified, peaceful state.
+
+Think of your mind like a snow globe that's been shaken up. When your thoughts are spinning and emotions are swirling, it's impossible to see clearly through all that mental turbulence. Concentration is like letting that snow globe settle until the water becomes crystal clear and still. Suddenly, you can see everything inside with perfect clarity.
+
+This mental stability is essential on the path to awakening because it allows you to investigate the deeper truths about life, suffering, and happiness without being constantly distracted by mental chatter. When your mind is concentrated, you develop the inner strength and clarity needed for genuine insight and wisdom to arise. It's like having a steady flashlight in a dark room—without that stable light, you can't properly explore what's hidden in the shadows of your experience.

@@ -1,0 +1,7 @@
+Equanimity is like being the calm center in life's swirling storms. It's that beautiful quality of remaining peaceful and balanced, whether you're receiving praise or criticism, experiencing joy or sorrow, success or failure. Think of it as emotional stability that doesn't depend on external circumstances.
+
+In Pali, this quality is called *upekkha*, which literally means "to look over" or "to see with balance." It suggests the wisdom of stepping back and observing life with a clear, unbiased perspective, like watching clouds pass through an open sky.
+
+Imagine you're watching a movie that has both wonderful and terrible scenes. While you might feel moved by what's happening, you don't get so caught up that you forget you're safely seated in the theater. Equanimity is similar—you remain present and caring, but not overwhelmed by life's ups and downs. It's not indifference or coldness; rather, it's love without attachment, care without clinging.
+
+As a factor of awakening, equanimity represents the mature balance that arises naturally when the other factors—mindfulness, investigation, energy, joy, tranquility, and concentration—are developed. It is the mind's ability to rest in spacious awareness without being pushed or pulled by experience, creating the conditions for genuine insight and liberation.

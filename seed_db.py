@@ -880,6 +880,102 @@ def seed_database(lists_data: list[dict], dhammas_data: list[dict]) -> None:
 # ---------------------------------------------------------------------------
 
 
+def apply_corrections(lists_map: dict[str, dict], dhammas_map: dict[str, dict]) -> None:
+    """Apply editorial corrections to parsed data before seeding.
+
+    These fix issues in the source spreadsheet: wrong Pali names, missing
+    dhammas, awkward list names, and non-traditional ordering.
+    """
+    # --- Rename "Aspects of There is Suffering" ---
+    if "there-is-suffering-aspects" in lists_map:
+        lst = lists_map["there-is-suffering-aspects"]
+        lst["name"] = "Aspects of Suffering"
+        lst["pali_name"] = "Dukkha-bheda"
+        lst["description"] = "Sub-teachings expanding on suffering"
+
+    # --- Add missing Concentration & Equanimity to Seven Factors ---
+    sfa_slug = "seven-factors-of-awakening"
+    if sfa_slug in lists_map:
+        sfa = lists_map[sfa_slug]
+        for slug, name, pali in [
+            ("factor-concentration", "Concentration", "Samadhi"),
+            ("factor-equanimity", "Equanimity", "Upekkha"),
+        ]:
+            if slug not in dhammas_map:
+                dhammas_map[slug] = {
+                    "name": name,
+                    "pali_name": pali,
+                    "slug": slug,
+                    "parent_list_slug": sfa_slug,
+                    "position_in_list": 0,
+                    "essay": "",
+                    "downstream": [],
+                    "upstream_from": [],
+                    "cross_references": [],
+                    "tags": [],
+                    "notes": "",
+                }
+            if slug not in sfa["children"]:
+                sfa["children"].append(slug)
+
+    # --- Fix Four Noble Truths Pali names ---
+    fnt_pali = {
+        "there-is-suffering": "Dukkha",
+        "there-is-a-cause-of-suffering": "Samudaya",
+        "there-is-an-end-to-suffering": "Nirodha",
+        "there-is-a-path-to-the-end-of-suffering": "Magga",
+    }
+    for slug, pali in fnt_pali.items():
+        if slug in dhammas_map:
+            dhammas_map[slug]["pali_name"] = pali
+
+    # --- Fix Six Sense Bases Pali names ---
+    sense_pali = {
+        "eye": "Cakkhu",
+        "ear": "Sota",
+        "nose": "Ghana",
+        "tongue": "Jivha",
+        "body": "Kaya",
+        "mind": "Mano",
+    }
+    for slug, pali in sense_pali.items():
+        if slug in dhammas_map:
+            dhammas_map[slug]["pali_name"] = pali
+
+    # --- Fix Mindfulness of Dhammas Pali ---
+    if "mindfulness-of-dhammas" in dhammas_map:
+        dhammas_map["mindfulness-of-dhammas"]["pali_name"] = "Dhammanupassana"
+
+    # --- Fix Four Stages of Enlightenment list Pali ---
+    if "four-stages-of-enlightenment" in lists_map:
+        lists_map["four-stages-of-enlightenment"]["pali_name"] = "Cattaro Ariya-puggala"
+
+    # --- Fix Three Trainings: remove spurious entry, reorder ---
+    dhammas_map.pop("all-three-trainings", None)
+    if "three-trainings" in lists_map:
+        tt = lists_map["three-trainings"]
+        if "all-three-trainings" in tt["children"]:
+            tt["children"].remove("all-three-trainings")
+        # Traditional order: Ethics, Concentration, Wisdom
+        tt["children"] = [
+            s for s in ["ethics", "concentration", "wisdom"] if s in tt["children"]
+        ]
+
+    # --- Fix Five Precepts ordering ---
+    if "five-precepts" in lists_map:
+        fp = lists_map["five-precepts"]
+        traditional = [
+            "non-harming",
+            "non-stealing",
+            "sexual-responsibility",
+            "non-lying",
+            "abstinence-from-intoxicants",
+        ]
+        fp["children"] = [s for s in traditional if s in fp["children"]]
+
+    log.info("Applied editorial corrections")
+
+
 def main() -> None:
     """Entry point: parse spreadsheet, merge data, seed MongoDB."""
     if not SPREADSHEET.exists():
@@ -927,10 +1023,12 @@ def main() -> None:
             if not existing["notes"] and d["notes"]:
                 existing["notes"] = d["notes"]
 
+    log.info("Merged: %d lists, %d dhammas", len(all_lists_map), len(all_dhammas_map))
+
+    # Apply editorial corrections to parsed data
+    apply_corrections(all_lists_map, all_dhammas_map)
     all_lists = list(all_lists_map.values())
     all_dhammas = list(all_dhammas_map.values())
-
-    log.info("Merged: %d lists, %d dhammas", len(all_lists), len(all_dhammas))
 
     # Detect cross-references via shared Pali terms
     detect_cross_references(all_dhammas)
