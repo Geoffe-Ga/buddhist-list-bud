@@ -756,7 +756,16 @@ def seed_database(lists_data: list[dict], dhammas_data: list[dict]) -> None:
     for doc in db.dhammas.find({}, {"slug": 1}):
         dhamma_slug_to_id[doc["slug"]] = doc["_id"]
 
-    slug_to_id = {**list_slug_to_id, **dhamma_slug_to_id}
+    def resolve_ref_slug(ref):
+        """Resolve a ref slug to an ObjectId using ref_type."""
+        ref_type = ref.get("ref_type", "")
+        slug = ref.get("ref_slug")
+        if ref_type == "list":
+            return list_slug_to_id.get(slug)
+        if ref_type == "dhamma":
+            return dhamma_slug_to_id.get(slug)
+        # Fallback: try lists first (downstream always targets lists)
+        return list_slug_to_id.get(slug) or dhamma_slug_to_id.get(slug)
 
     # --- Resolve list references ---
     for doc in db.lists.find():
@@ -767,7 +776,7 @@ def seed_database(lists_data: list[dict], dhammas_data: list[dict]) -> None:
         ]
         upstream = []
         for ref in doc.get("upstream_from_slugs", []):
-            ref_id = slug_to_id.get(ref.get("ref_slug"))
+            ref_id = resolve_ref_slug(ref)
             if ref_id:
                 upstream.append(
                     {
@@ -791,7 +800,7 @@ def seed_database(lists_data: list[dict], dhammas_data: list[dict]) -> None:
 
         downstream = []
         for ref in doc.get("downstream_slugs", []):
-            ref_id = slug_to_id.get(ref.get("ref_slug"))
+            ref_id = resolve_ref_slug(ref)
             if ref_id:
                 downstream.append(
                     {
@@ -803,7 +812,7 @@ def seed_database(lists_data: list[dict], dhammas_data: list[dict]) -> None:
 
         upstream = []
         for ref in doc.get("upstream_from_slugs", []):
-            ref_id = slug_to_id.get(ref.get("ref_slug"))
+            ref_id = resolve_ref_slug(ref)
             if ref_id:
                 upstream.append(
                     {
