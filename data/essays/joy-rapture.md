@@ -1,4 +1,4 @@
-Joy, or rapture as it's sometimes called, is one of the most uplifting experiences on the Buddhist path. In Pali, this quality is called "pīti" (PEE-tee), which literally means a bubbling up of delight or enthusiastic happiness. It's the kind of spontaneous joy that arises naturally when our minds become clear and peaceful through meditation and wise living.
+Joy, or rapture as it's sometimes called, is one of the most uplifting experiences on the Buddhist path. In Pali, this quality is called *pīti* (PEE-tee), which literally means a bubbling up of delight or enthusiastic happiness. It's the kind of spontaneous joy that arises naturally when our minds become clear and peaceful through meditation and wise living.
 
 Think of how you feel when you accomplish something meaningful after patient effort—perhaps learning a difficult piece of music or helping someone in need. There's often a wonderful sense of lightness and energy that bubbles up from within. This is similar to pīti, though Buddhist joy arises not from external achievements but from the inner freedom that comes with letting go of mental burdens.
 

@@ -1,4 +1,4 @@
-Energy in Buddhism refers to a wholesome enthusiasm and sustained effort that propels us forward on our spiritual journey. In Pali, this quality is called "viriya," which literally means vigor or heroic energy - not the frantic rushing we often associate with being energetic, but rather a steady, purposeful momentum.
+Energy in Buddhism refers to a wholesome enthusiasm and sustained effort that propels us forward on our spiritual journey. In Pali, this quality is called *viriya*, which literally means vigor or heroic energy - not the frantic rushing we often associate with being energetic, but rather a steady, purposeful momentum.
 
 Think of energy like tending a garden. A good gardener doesn't exhaust themselves by working frantically for one day and then abandoning their plants for weeks. Instead, they show up consistently, day after day, with gentle persistence. They water regularly, pull weeds mindfully, and remain patient with the growing process. This is the kind of balanced energy Buddhism encourages.
 

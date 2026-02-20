@@ -1,6 +1,6 @@
 Right View is like having a clear, accurate map when you're traveling to an unfamiliar destination. In Buddhism, it means seeing reality as it truly is, rather than through the distorted lens of our misconceptions and wishful thinking.
 
-The Pali term "Samma Ditthi" literally means "correct seeing" or "proper understanding." Think of it as the foundation for everything else on the spiritual path—just as you need to understand where you're going before you can choose the right road.
+The Pali term *Samma Ditthi* literally means "correct seeing" or "proper understanding." Think of it as the foundation for everything else on the spiritual path—just as you need to understand where you're going before you can choose the right road.
 
 Imagine you believe that buying the latest gadget will make you permanently happy. Right View would help you see that while the purchase might bring temporary pleasure, lasting happiness doesn't come from external things. This isn't about being pessimistic, but about understanding how things actually work so you can make wiser choices.
 

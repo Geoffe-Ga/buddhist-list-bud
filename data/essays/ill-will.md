@@ -1,4 +1,4 @@
-Ill-will is that familiar burning feeling of resentment, anger, or hatred that can consume our hearts and minds. In Pali, it's called "vyāpāda" (pronounced vee-AH-pa-da), which literally means "striking against" or "attacking" - perfectly capturing how this mental state feels like we're internally fighting against someone or something.
+Ill-will is that familiar burning feeling of resentment, anger, or hatred that can consume our hearts and minds. In Pali, it's called *vyāpāda* (pronounced vee-AH-pa-da), which literally means "striking against" or "attacking" - perfectly capturing how this mental state feels like we're internally fighting against someone or something.
 
 Think about the last time someone cut you off in traffic or said something hurtful. Notice how that flash of anger didn't just disappear - it lingered, replaying in your mind, making your jaw clench and your thoughts spiral. That's ill-will at work, like a hot coal you're holding, burning only yourself while the other person has moved on completely.
 

@@ -1,6 +1,6 @@
 Imagine holding a beautiful flower so tightly that your knuckles turn white and your hand cramps. The harder you squeeze, the more the petals bruise and fall away. This is how our attachments work – the very things we grasp so desperately often slip through our fingers, causing us suffering in the process.
 
-This is where the Buddhist teaching of renunciation, called "nekkhamma" in the ancient Pali language, offers profound wisdom. Nekkhamma literally means "going forth" or "departure" – not a physical leaving, but an inner movement away from our compulsive clinging to things, experiences, and even ideas about how life should be.
+This is where the Buddhist teaching of renunciation, called *nekkhamma* in the ancient Pali language, offers profound wisdom. Nekkhamma literally means "going forth" or "departure" – not a physical leaving, but an inner movement away from our compulsive clinging to things, experiences, and even ideas about how life should be.
 
 Renunciation isn't about becoming a joyless ascetic or rejecting all pleasure. Instead, it's like learning to hold that flower with an open palm – you can still appreciate its beauty and fragrance, but you're not desperately grasping it. When you hold life lightly, you can actually enjoy it more fully because you're not constantly anxious about losing what you have or not getting what you want.
 

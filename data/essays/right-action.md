@@ -1,4 +1,4 @@
-Right Action is essentially about living with integrity through our physical deeds and choices. In Pali, the ancient language of early Buddhist texts, it's called "Samma Kammanta," where "samma" means "right" or "complete" and "kammanta" refers to "action" or "doing." Think of it as the Buddha's guidance for how we express our spiritual understanding through what we actually do in the world.
+Right Action is essentially about living with integrity through our physical deeds and choices. In Pali, the ancient language of early Buddhist texts, it's called *Samma Kammanta*, where *samma* means "right" or "complete" and *kammanta* refers to "action" or "doing." Think of it as the Buddha's guidance for how we express our spiritual understanding through what we actually do in the world.
 
 Imagine you're at a store and the cashier accidentally gives you too much change. Right Action would mean pointing out their mistake and returning the extra money, even when no one would know if you kept it. It's about acting from a place of honesty, kindness, and respect for all life, rather than from greed, anger, or delusion.
 

@@ -1,4 +1,4 @@
-In Buddhism, the "body" refers to one of our six sense bases – the physical body that can touch and be touched by the physical world. The Pali word is "kāya," which simply means "body" or "physical form." This isn't just about our skin and muscles, but our entire capacity to experience the physical world through touch, pressure, temperature, and texture.
+In Buddhism, the "body" refers to one of our six sense bases – the physical body that can touch and be touched by the physical world. The Pali word is *kāya*, which simply means "body" or "physical form." This isn't just about our skin and muscles, but our entire capacity to experience the physical world through touch, pressure, temperature, and texture.
 
 Think about holding a warm cup of coffee on a cold morning. Your hands feel the warmth of the ceramic, the smooth texture of the mug, perhaps the slight weight as you lift it. Your body is constantly receiving information about hardness and softness, hot and cold, rough and smooth. This is your body sense base at work – it's like having a full-body antenna that's always picking up signals from the physical world around you.
 

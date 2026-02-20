@@ -1,4 +1,4 @@
-Imagine sitting quietly and suddenly becoming aware that you're aware – that simple, clear knowing that experiences are happening right now. This is what Buddhists call the consciousness aggregate, or in the ancient Pali language, "viññāṇa," which literally means "knowing" or "discerning awareness."
+Imagine sitting quietly and suddenly becoming aware that you're aware – that simple, clear knowing that experiences are happening right now. This is what Buddhists call the consciousness aggregate, or in the ancient Pali language, *viññāṇa*, which literally means "knowing" or "discerning awareness."
 
 Think of consciousness like a clear mirror that reflects whatever appears before it. When you hear a bird singing, there's the sound itself, but there's also the pure awareness that knows "hearing is happening." When you taste coffee, beyond the flavor lies that fundamental awareness recognizing "tasting is occurring." Buddhism teaches that this consciousness operates through six doorways – our five physical senses plus the mind that knows thoughts and mental images.
 

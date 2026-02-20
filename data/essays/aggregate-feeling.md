@@ -1,4 +1,4 @@
-Every moment of your experience has a subtle feeling tone - it's either pleasant, unpleasant, or neutral. This is what Buddhism calls the aggregate of feeling, known in Pali as "vedanā." This ancient word comes from the root meaning "to feel" or "to experience," and it's one of the five building blocks that make up what we think of as our experience of life.
+Every moment of your experience has a subtle feeling tone - it's either pleasant, unpleasant, or neutral. This is what Buddhism calls the aggregate of feeling, known in Pali as *vedanā*. This ancient word comes from the root meaning "to feel" or "to experience," and it's one of the five building blocks that make up what we think of as our experience of life.
 
 Think of sipping your morning coffee. The warm, rich taste might create a pleasant feeling tone. Later, when you hear fingernails scraping a chalkboard, that creates an unpleasant feeling tone. And when you're simply breathing normally without thinking about it, that's usually neutral - neither particularly pleasant nor unpleasant.
 

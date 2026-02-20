@@ -1,4 +1,4 @@
-Sensual desire is simply our mind's tendency to chase after pleasant experiences through our five senses—craving delicious food, beautiful sights, lovely sounds, pleasant touches, or enticing smells. In Pali, this is called "kāmacchanda," which literally means "desire for sensual pleasures" or "attraction to sense objects."
+Sensual desire is simply our mind's tendency to chase after pleasant experiences through our five senses—craving delicious food, beautiful sights, lovely sounds, pleasant touches, or enticing smells. In Pali, this is called *kāmacchanda*, which literally means "desire for sensual pleasures" or "attraction to sense objects."
 
 Think of sensual desire like being constantly hungry, but not just for food. Imagine walking through a shopping mall where every store window displays something that makes you think, "I must have that!" Your mind becomes restless, jumping from one attractive thing to another, never quite satisfied even when you get what you wanted. This endless seeking keeps you distracted and scattered.
 

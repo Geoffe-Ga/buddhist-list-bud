@@ -1,4 +1,4 @@
-Imagine sitting with a dear friend who asks you to watch their wallet while they step away. Non-stealing means honoring that trust completely – not taking what isn't freely given to you. In Buddhism, we call this principle "Adinnadana veramani" in the ancient Pali language, which literally translates as "refraining from taking what is not given."
+Imagine sitting with a dear friend who asks you to watch their wallet while they step away. Non-stealing means honoring that trust completely – not taking what isn't freely given to you. In Buddhism, we call this principle *Adinnadana veramani* in the ancient Pali language, which literally translates as "refraining from taking what is not given."
 
 This beautiful teaching extends far beyond obvious theft. It includes being honest about our work hours, not "borrowing" office supplies without permission, paying fair wages, or even taking credit for someone else's ideas. Think of it as cultivating a deep respect for the boundaries between what's ours and what belongs to others.
 

@@ -1,4 +1,4 @@
-Right Speech is simply about speaking in ways that help rather than harm ourselves and others. In Pali, the ancient language of early Buddhist texts, this is called "Samma Vaca," where "samma" means right or complete, and "vaca" refers to speech or what we express with words.
+Right Speech is simply about speaking in ways that help rather than harm ourselves and others. In Pali, the ancient language of early Buddhist texts, this is called *Samma Vaca*, where *samma* means right or complete, and *vaca* refers to speech or what we express with words.
 
 Think of your words as seeds you're planting in the world. When you speak truthfully, kindly, and thoughtfully, you plant flowers that brighten everyone's day. But harsh words, lies, or gossip are like planting weeds that create suffering and confusion. Just as a gardener carefully chooses which seeds to plant, we can learn to choose our words wisely.
 

@@ -1,6 +1,6 @@
 Imagine watching a tree during different seasons – it remains steady whether blossoms cover its branches in spring or winter winds strip it bare. This beautiful quality of remaining balanced and even-minded, regardless of what life brings, is what Buddhists call equanimity.
 
-The Pali word is "upekkha," which literally means "to look over" or "to see with clarity from above." Picture yourself on a mountaintop, looking down at the valleys below with a clear, panoramic view – you can see everything without getting caught up in the drama of any particular scene.
+The Pali word is *upekkha*, which literally means "to look over" or "to see with clarity from above." Picture yourself on a mountaintop, looking down at the valleys below with a clear, panoramic view – you can see everything without getting caught up in the drama of any particular scene.
 
 In daily life, equanimity might look like receiving both praise and criticism with the same calm composure, or staying centered whether your team wins or loses. It's not about becoming cold or indifferent – rather, it's like being a loving parent who remains steady and wise whether their child is laughing or crying, knowing that both emotions will pass.
 

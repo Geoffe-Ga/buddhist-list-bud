@@ -1,4 +1,4 @@
-The fifth Buddhist precept asks us to abstain from substances that cloud our minds and impair our judgment. In Pali, this is called "Surameraya veramani," which literally means "abstaining from fermented drinks and distilled liquors." While the ancient language specifically mentions alcohol, the principle extends to any intoxicant that diminishes our awareness and self-control.
+The fifth Buddhist precept asks us to abstain from substances that cloud our minds and impair our judgment. In Pali, this is called *Surameraya veramani*, which literally means "abstaining from fermented drinks and distilled liquors." While the ancient language specifically mentions alcohol, the principle extends to any intoxicant that diminishes our awareness and self-control.
 
 Think of your mind like a clear mountain lake. When the water is still and pure, you can see all the way to the bottom with perfect clarity. But when substances muddy the water, everything becomes distorted and unclear. Intoxicants work similarly on our consciousness, making it difficult to see situations clearly or respond with wisdom and compassion.
 

@@ -1,4 +1,4 @@
-Loving-kindness is perhaps the most heart-warming teaching in Buddhism—it's about cultivating genuine goodwill toward all living beings, including yourself. The Pali word is "metta," which literally means friendliness or benevolence, like the warm feeling you have toward a dear friend.
+Loving-kindness is perhaps the most heart-warming teaching in Buddhism—it's about cultivating genuine goodwill toward all living beings, including yourself. The Pali word is *metta*, which literally means friendliness or benevolence, like the warm feeling you have toward a dear friend.
 
 Think of how you feel when you see a happy child playing in a park. There's this spontaneous wish for their wellbeing, with no agenda or expectation of getting anything back. That's metta in action. Now imagine extending that same warm-hearted goodwill to your family, your neighbors, strangers on the bus, difficult people in your life, and eventually all creatures everywhere.
 

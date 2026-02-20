@@ -1,7 +1,32 @@
-import { forwardRef, useCallback, useEffect, useImperativeHandle, useState } from 'react'
+import { forwardRef, type ReactNode, useCallback, useEffect, useImperativeHandle, useState } from 'react'
 import { fetchLists, fetchNavigate } from '../api/navigate'
 import type { NavigateResponse, NodeSummary } from '../types'
 import './NavigationLayout.css'
+
+/**
+ * Render inline *italic* markers as <em> elements for Pali words in essays.
+ * Only handles single-asterisk pairs (*word*), not bold or other markdown.
+ */
+function renderEssayText(text: string): ReactNode[] {
+  const parts: ReactNode[] = []
+  const pattern = /\*([^*]+)\*/g
+  let lastIndex = 0
+  let match: RegExpExecArray | null
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index))
+    }
+    parts.push(<em key={match.index}>{match[1]}</em>)
+    lastIndex = pattern.lastIndex
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex))
+  }
+
+  return parts
+}
 
 export interface NavigationLayoutHandle {
   navigateTo: (id: string) => void
@@ -116,7 +141,7 @@ const NavigationLayout = forwardRef<NavigationLayoutHandle>(function NavigationL
             </ol>
           )}
           {data.current.essay && (
-            <div className="essay">{data.current.essay}</div>
+            <div className="essay">{renderEssayText(data.current.essay)}</div>
           )}
         </div>
 

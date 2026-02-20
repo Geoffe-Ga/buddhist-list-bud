@@ -1,4 +1,4 @@
-Faith in Buddhism might surprise you—it's not about blind belief, but rather a confident trust based on understanding and experience. The Pali word "saddha" literally means "to place one's heart upon" something, like how you might trust a dear friend or rely on a sturdy bridge.
+Faith in Buddhism might surprise you—it's not about blind belief, but rather a confident trust based on understanding and experience. The Pali word *saddha* literally means "to place one's heart upon" something, like how you might trust a dear friend or rely on a sturdy bridge.
 
 Think of learning to ride a bicycle. At first, you need faith that the bike will support you and that balance is possible, even though you can't yet prove it to yourself. This initial confidence motivates you to keep practicing despite wobbles and falls. As your skill grows, that faith transforms into direct knowledge—you know you can ride because you're doing it.
 

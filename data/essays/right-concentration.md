@@ -1,6 +1,6 @@
-Right Concentration is like learning to focus a camera lens until the image becomes crystal clear. In our daily lives, our minds often feel scattered, jumping from worry to daydream to planning like a restless monkey. Right Concentration, or "samma samadhi" in the ancient Pali language, teaches us to gather this scattered mental energy into a steady, peaceful focus.
+Right Concentration is like learning to focus a camera lens until the image becomes crystal clear. In our daily lives, our minds often feel scattered, jumping from worry to daydream to planning like a restless monkey. Right Concentration, or *samma samadhi* in the ancient Pali language, teaches us to gather this scattered mental energy into a steady, peaceful focus.
 
-The word "samma" means "right" or "complete," while "samadhi" refers to a state where the mind becomes absorbed and unified, like a candle flame burning steadily without flickering in the wind. This isn't about forcing thoughts away or becoming blank, but rather cultivating a natural settling of mental activity.
+The word *samma* means "right" or "complete," while *samadhi* refers to a state where the mind becomes absorbed and unified, like a candle flame burning steadily without flickering in the wind. This isn't about forcing thoughts away or becoming blank, but rather cultivating a natural settling of mental activity.
 
 Think of how you feel when you're completely absorbed in something you love—perhaps reading a captivating book or watching a beautiful sunset. Time seems to pause, worries fade away, and there's a quality of ease and clarity. Right Concentration develops this same quality intentionally through meditation practice.
 

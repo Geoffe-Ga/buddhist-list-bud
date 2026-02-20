@@ -889,6 +889,61 @@ def seed_database(lists_data: list[dict], dhammas_data: list[dict]) -> None:
 # ---------------------------------------------------------------------------
 
 
+def _replace_list_downstream_with_dhammas(
+    dhammas_map: dict[str, dict],
+    lists_map: dict[str, dict],
+    parent_slug: str,
+    old_list_slug: str,
+    target_dhamma_slugs: list[str],
+) -> None:
+    """Replace an overly broad list-level downstream with specific dhamma refs.
+
+    Removes the downstream entry pointing to old_list_slug and adds individual
+    downstream entries for each dhamma in target_dhamma_slugs. Also cleans up
+    the reverse upstream on the old list and adds upstream on target dhammas.
+    """
+    if parent_slug not in dhammas_map:
+        return
+
+    parent = dhammas_map[parent_slug]
+
+    # Remove the old list-level downstream entry
+    parent["downstream"] = [
+        ref
+        for ref in parent["downstream"]
+        if ref.get("ref_slug") != old_list_slug
+    ]
+
+    # Remove the old upstream entry on the list
+    if old_list_slug in lists_map:
+        lists_map[old_list_slug]["upstream_from"] = [
+            ref
+            for ref in lists_map[old_list_slug]["upstream_from"]
+            if ref.get("ref_slug") != parent_slug
+        ]
+
+    # Add individual dhamma-level downstream entries
+    for target_slug in target_dhamma_slugs:
+        if target_slug not in dhammas_map:
+            continue
+        target = dhammas_map[target_slug]
+        downstream_entry = {
+            "ref_slug": target_slug,
+            "ref_type": "dhamma",
+            "relationship_note": f"Includes {target['name']}",
+        }
+        if downstream_entry not in parent["downstream"]:
+            parent["downstream"].append(downstream_entry)
+
+        upstream_entry = {
+            "ref_slug": parent_slug,
+            "ref_type": "dhamma",
+            "relationship_note": f"Part of {parent['name']} practice",
+        }
+        if upstream_entry not in target.get("upstream_from", []):
+            target.setdefault("upstream_from", []).append(upstream_entry)
+
+
 def apply_corrections(lists_map: dict[str, dict], dhammas_map: dict[str, dict]) -> None:
     """Apply editorial corrections to parsed data before seeding.
 
@@ -981,6 +1036,71 @@ def apply_corrections(lists_map: dict[str, dict], dhammas_map: dict[str, dict]) 
             "abstinence-from-intoxicants",
         ]
         fp["children"] = [s for s in traditional if s in fp["children"]]
+
+    # --- Fix partial-list downstream: Three Trainings → Eightfold Path ---
+    # Each training should link to its specific Eightfold Path members,
+    # not the entire list. Based on traditional Theravada classification:
+    #   Ethics (Sila): Right Speech, Right Action, Right Livelihood
+    #   Concentration (Samadhi): Right Effort, Right Mindfulness, Right Concentration
+    #   Wisdom (Pañña): Right View, Right Intention
+    _replace_list_downstream_with_dhammas(
+        dhammas_map,
+        lists_map,
+        "ethics",
+        "noble-eightfold-path",
+        ["right-speech", "right-action", "right-livelihood"],
+    )
+    _replace_list_downstream_with_dhammas(
+        dhammas_map,
+        lists_map,
+        "concentration",
+        "noble-eightfold-path",
+        ["right-effort", "right-mindfulness", "right-concentration"],
+    )
+    _replace_list_downstream_with_dhammas(
+        dhammas_map,
+        lists_map,
+        "wisdom",
+        "noble-eightfold-path",
+        ["right-view", "right-intention"],
+    )
+
+    # --- Fix partial-list downstream: Eightfold Path → Five Precepts ---
+    # Each path factor links to its relevant precepts, not all five:
+    #   Right Action: Non-harming, Non-stealing, Sexual Responsibility
+    #   Right Speech: Non-lying
+    #   Right Livelihood: Abstinence from Intoxicants
+    _replace_list_downstream_with_dhammas(
+        dhammas_map,
+        lists_map,
+        "right-action",
+        "five-precepts",
+        ["non-harming", "non-stealing", "sexual-responsibility"],
+    )
+    _replace_list_downstream_with_dhammas(
+        dhammas_map,
+        lists_map,
+        "right-speech",
+        "five-precepts",
+        ["non-lying"],
+    )
+    # Right Livelihood → Five Precepts: remove the overly broad list link.
+    # Right Livelihood prohibits *trade* in intoxicants (AN 5.177), while
+    # the 5th Precept prohibits *consuming* them — different ethical concerns.
+    # No standard commentarial source maps Right Livelihood to any precept,
+    # so we remove the connection entirely rather than create a weak edge.
+    if "right-livelihood" in dhammas_map:
+        dhammas_map["right-livelihood"]["downstream"] = [
+            ref
+            for ref in dhammas_map["right-livelihood"]["downstream"]
+            if ref.get("ref_slug") != "five-precepts"
+        ]
+    if "five-precepts" in lists_map:
+        lists_map["five-precepts"]["upstream_from"] = [
+            ref
+            for ref in lists_map["five-precepts"]["upstream_from"]
+            if ref.get("ref_slug") != "right-livelihood"
+        ]
 
     log.info("Applied editorial corrections")
 

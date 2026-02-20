@@ -1,6 +1,6 @@
 Imagine sitting quietly and suddenly noticing a wave of anger arising in your mind, observing how it feels, where it came from, and watching it naturally fade away. This gentle, curious awareness of what's happening in your mental landscape is what Buddhists call "Mindfulness of Dhammas."
 
-In the ancient Pali language, "dhamma" literally means "things" or "phenomena" – in this context, it refers to the mental objects, thoughts, emotions, and states of mind that constantly flow through our awareness. Think of your mind like a river, with dhammas as everything floating down the stream: memories, worries, judgments, feelings of joy or frustration, even spiritual states like compassion or concentration.
+In the ancient Pali language, *dhamma* literally means "things" or "phenomena" – in this context, it refers to the mental objects, thoughts, emotions, and states of mind that constantly flow through our awareness. Think of your mind like a river, with dhammas as everything floating down the stream: memories, worries, judgments, feelings of joy or frustration, even spiritual states like compassion or concentration.
 
 Picture yourself as a kind observer sitting by this river of mind, simply noticing what passes by without jumping in to swim with every thought or emotion. When jealousy appears, you think, "Ah, jealousy is here." When gratitude arises, you recognize, "Now there's gratitude." You're not trying to stop the river or change what's flowing – you're just watching with friendly awareness.
 

@@ -1,6 +1,6 @@
 The nose as a sense base in Buddhism refers to our faculty of smell and how we experience different odors around us. This might seem quite obvious at first, but the Buddha's teaching goes much deeper than simply acknowledging that we can smell things.
 
-In Pali, the ancient language of Buddhist texts, the nose is called "ghāna," which literally means "the smeller" or "that which smells." It's paired with "gandha," meaning smell or odor. Together, they form one of our six sense bases—the six ways we connect with and experience the world around us.
+In Pali, the ancient language of Buddhist texts, the nose is called *ghāna*, which literally means "the smeller" or "that which smells." It's paired with *gandha*, meaning smell or odor. Together, they form one of our six sense bases—the six ways we connect with and experience the world around us.
 
 Think about walking into a bakery and catching the warm scent of fresh bread, or stepping outside after rain and breathing in that clean, earthy smell. In that moment, your nose-sense encounters the smell-object, and immediately your mind reacts. You might feel pleasure, memory, craving, or even aversion if it's an unpleasant odor.
 

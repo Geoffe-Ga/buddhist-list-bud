@@ -1,4 +1,4 @@
-Right Mindfulness is simply about paying clear, gentle attention to what's actually happening in this moment, rather than being lost in thoughts about the past or future. In Pali, it's called "Samma Sati," where "samma" means complete or whole, and "sati" means awareness or remembrance – literally, the ability to hold something clearly in mind.
+Right Mindfulness is simply about paying clear, gentle attention to what's actually happening in this moment, rather than being lost in thoughts about the past or future. In Pali, it's called *Samma Sati*, where *samma* means complete or whole, and *sati* means awareness or remembrance – literally, the ability to hold something clearly in mind.
 
 Think of it like being a friendly scientist of your own experience. When you're washing dishes, you're fully present with the warm water, the texture of the soap, the weight of each plate. You notice when your mind wanders to tomorrow's meeting or yesterday's conversation, and you gently return your attention to the simple act of washing. There's no judgment, just kind awareness.
 

@@ -1,4 +1,4 @@
-At its heart, non-harming means choosing not to kill or cause physical harm to any living being. This beautiful principle, known in Pali as "Panatipata veramani," literally translates as "refraining from destroying life" or "abstaining from taking what breathes."
+At its heart, non-harming means choosing not to kill or cause physical harm to any living being. This beautiful principle, known in Pali as *Panatipata veramani*, literally translates as "refraining from destroying life" or "abstaining from taking what breathes."
 
 Think of it like tending a garden with gentle hands. Just as a caring gardener works around the earthworms and relocates spiders rather than crushing them, we learn to move through life with awareness and compassion. This might mean catching that fly in a glass to release it outdoors, choosing not to swat mosquitoes, or simply watching where we step on a nature walk.
 

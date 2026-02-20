@@ -1,4 +1,4 @@
-Imagine you're learning to play piano. Some days your fingers feel clumsy, the music sounds terrible, and you want to quit. But something inside keeps you returning to the bench, day after day, gently coaxing beautiful melodies from those stubborn keys. This persistent, patient effort is what Buddhists call "viriya" – often translated as energy or effort.
+Imagine you're learning to play piano. Some days your fingers feel clumsy, the music sounds terrible, and you want to quit. But something inside keeps you returning to the bench, day after day, gently coaxing beautiful melodies from those stubborn keys. This persistent, patient effort is what Buddhists call *viriya* – often translated as energy or effort.
 
 Viriya comes from the Pali word meaning "heroic energy" or "vigor," but it's not the frantic, aggressive pushing we might expect. Think of it more like the steady determination of a gardener who waters seeds daily, knowing that growth happens slowly and naturally. It's the quiet heroism of showing up consistently, even when progress feels invisible.
 

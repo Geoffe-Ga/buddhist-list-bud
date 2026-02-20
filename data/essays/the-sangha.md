@@ -1,6 +1,6 @@
 Picture yourself learning to play a musical instrument. While you can practice alone, having other musicians to play with, learn from, and encourage you makes all the difference. This beautiful idea captures the essence of the Sangha, the third of Buddhism's Three Jewels.
 
-The Pali word "Sangha" simply means "community" or "assembly." In its traditional sense, it refers to the community of Buddhist monks and nuns who have dedicated their lives to following the Buddha's teachings. But in our modern context, it extends to include all sincere practitioners walking this path together.
+The Pali word *Sangha* simply means "community" or "assembly." In its traditional sense, it refers to the community of Buddhist monks and nuns who have dedicated their lives to following the Buddha's teachings. But in our modern context, it extends to include all sincere practitioners walking this path together.
 
 Think of the Sangha like a hiking group tackling a challenging mountain trail. When you're walking alone and the path gets steep or confusing, it's easy to lose motivation or take a wrong turn. But with companions who share your destination, you encourage each other through difficult stretches, share wisdom about the route, and celebrate progress together. Someone might spot a hazard you missed, while you might help another over a rocky section.
 

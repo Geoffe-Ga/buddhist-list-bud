@@ -1,6 +1,6 @@
 Picture yourself walking through a garden. Your eyes meet a blooming rose, and suddenly you're caught up in thoughts about its beauty, memories it triggers, or desires it awakens. This simple moment reveals what the Buddha called the "eye sense base" – one of our six doorways to experience.
 
-In Pali, this is called "cakkhu," which literally means "eye," but the Buddha wasn't just talking about the physical organ in your head. He meant the entire process of seeing – your eye, the visible forms you encounter, and the consciousness that arises when they meet. Think of it like a doorway where the outer world and your inner awareness come together to create what we call "seeing."
+In Pali, this is called *cakkhu*, which literally means "eye," but the Buddha wasn't just talking about the physical organ in your head. He meant the entire process of seeing – your eye, the visible forms you encounter, and the consciousness that arises when they meet. Think of it like a doorway where the outer world and your inner awareness come together to create what we call "seeing."
 
 This teaching belongs to the Six Sense Bases, which also include hearing, smelling, tasting, touching, and thinking. These aren't just body parts – they're the active doorways through which all our experiences flow. When your eye meets that rose, consciousness springs to life, and from there unfolds the whole chain of craving, clinging, and suffering that keeps us spinning in cycles of dissatisfaction.
 

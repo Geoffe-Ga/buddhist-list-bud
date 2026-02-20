@@ -1,4 +1,4 @@
-Imagine you're tending a garden of the mind, carefully nurturing what helps you flourish while gently removing what doesn't serve you. This beautifully captures the essence of the Four Right Efforts, known in Pali as "Cattaro Sammappadhana," which literally means "four right strivings" or "four right endeavors."
+Imagine you're tending a garden of the mind, carefully nurturing what helps you flourish while gently removing what doesn't serve you. This beautifully captures the essence of the Four Right Efforts, known in Pali as *Cattaro Sammappadhana*, which literally means "four right strivings" or "four right endeavors."
 
 These four efforts work like a wise gardener's approach. First, we prevent harmful mental states from arising, just as we might keep weeds from taking root. Second, when unwholesome thoughts or emotions do appear, we gently let them go, like removing weeds that have already sprouted. Third, we actively cultivate positive mental states that haven't yet developed, similar to planting beneficial seeds. Finally, we nurture and strengthen the wholesome qualities already present in our minds, like tending flourishing plants.
 

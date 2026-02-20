@@ -1,4 +1,4 @@
-Right Effort is like being a wise gardener who knows exactly how much energy to put into tending their garden—not so little that weeds take over, but not so much that they exhaust themselves and give up entirely. In the Buddhist path, this balanced approach to energy is called "Samma Vayama" in the ancient Pali language, where "samma" means "right" or "complete," and "vayama" means "effort" or "exertion."
+Right Effort is like being a wise gardener who knows exactly how much energy to put into tending their garden—not so little that weeds take over, but not so much that they exhaust themselves and give up entirely. In the Buddhist path, this balanced approach to energy is called *Samma Vayama* in the ancient Pali language, where *samma* means "right" or "complete," and *vayama* means "effort" or "exertion."
 
 Think of learning to play a musical instrument. If you practice too intensely, you might burn out or injure yourself. Too casually, and you never improve. Right Effort means finding that sweet spot where you're engaged and persistent without being harsh or forcing things. It's the steady, sustainable energy that keeps you showing up day after day.
 

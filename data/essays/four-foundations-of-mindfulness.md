@@ -1,4 +1,4 @@
-The Four Foundations of Mindfulness are like four windows through which we can clearly observe our inner and outer world. In Pali, this teaching is called "Cattaro Satipatthana," which literally means "four establishments of awareness" – think of them as four steady places where we can anchor our attention to develop true understanding.
+The Four Foundations of Mindfulness are like four windows through which we can clearly observe our inner and outer world. In Pali, this teaching is called *Cattaro Satipatthana*, which literally means "four establishments of awareness" – think of them as four steady places where we can anchor our attention to develop true understanding.
 
 These foundations invite us to mindfully observe four areas of our experience: our physical body and its sensations, our feelings of pleasant or unpleasant, our mental states and emotions, and finally, the patterns and processes of how our minds work. It's like becoming a gentle, curious scientist of your own life.
 

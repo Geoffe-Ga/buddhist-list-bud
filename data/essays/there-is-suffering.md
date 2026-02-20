@@ -1,4 +1,4 @@
-Imagine sitting with a dear friend who gently points out something you've always known but never quite put into words: life contains suffering. This is the Buddha's First Noble Truth, expressed in Pali as "Dukkha," which literally means "difficult to bear" or "hard to endure."
+Imagine sitting with a dear friend who gently points out something you've always known but never quite put into words: life contains suffering. This is the Buddha's First Noble Truth, expressed in Pali as *Dukkha*, which literally means "difficult to bear" or "hard to endure."
 
 Dukkha isn't just about dramatic tragedies or major losses, though it certainly includes those. Think about the subtle discomfort you feel when your favorite song ends, the anxiety before an important meeting, or even the restlessness that creeps in during a perfect vacation day. There's a quality of unsatisfactoriness woven into our experience – sometimes like a splinter we can't quite locate, other times like a wave that knocks us over.
 
