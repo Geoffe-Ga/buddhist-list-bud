@@ -119,11 +119,25 @@ async def _navigate_dhamma(doc: dict) -> NavigateResponse:
     parent_id = doc["parent_list_id"]
     pos = doc.get("position_in_list", 0)
 
-    # Batch: parent list + downstream lists in one query
-    downstream_ids = [ref["ref_id"] for ref in doc.get("downstream", [])]
-    all_list_ids = [parent_id, *downstream_ids]
+    # Separate downstream refs by type (list vs dhamma)
+    downstream_refs = doc.get("downstream", [])
+    downstream_list_ids = [
+        ref["ref_id"] for ref in downstream_refs if ref.get("ref_type") == "list"
+    ]
+    downstream_dhamma_ids = [
+        ref["ref_id"] for ref in downstream_refs if ref.get("ref_type") == "dhamma"
+    ]
+
+    # Batch fetch: parent list + downstream lists
+    all_list_ids = [parent_id, *downstream_list_ids]
     cursor = db.lists.find({"_id": {"$in": all_list_ids}}, {"name": 1})
     list_map = {d["_id"]: d["name"] async for d in cursor}
+
+    # Batch fetch: downstream dhammas
+    dhamma_map: dict = {}
+    if downstream_dhamma_ids:
+        cursor = db.dhammas.find({"_id": {"$in": downstream_dhamma_ids}}, {"name": 1})
+        dhamma_map = {d["_id"]: d["name"] async for d in cursor}
 
     # Left: parent list
     left: list[NodeSummary] = []
@@ -132,11 +146,15 @@ async def _navigate_dhamma(doc: dict) -> NavigateResponse:
             NodeSummary(id=str(parent_id), name=list_map[parent_id], type="list")
         )
 
-    # Right: downstream lists (preserve order)
+    # Right: downstream refs (preserve order, mixed list/dhamma types)
     right: list[NodeSummary] = []
-    for did in downstream_ids:
-        if did in list_map:
-            right.append(NodeSummary(id=str(did), name=list_map[did], type="list"))
+    for ref in downstream_refs:
+        rid = ref["ref_id"]
+        rtype = ref.get("ref_type", "list")
+        if rtype == "list" and rid in list_map:
+            right.append(NodeSummary(id=str(rid), name=list_map[rid], type="list"))
+        elif rtype == "dhamma" and rid in dhamma_map:
+            right.append(NodeSummary(id=str(rid), name=dhamma_map[rid], type="dhamma"))
 
     # Up/Down siblings — single query fetching both neighbors
     siblings = db.dhammas.find(
