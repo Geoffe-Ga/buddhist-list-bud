@@ -8,8 +8,6 @@ formatting markers).
 import re
 from pathlib import Path
 
-import pytest
-
 ESSAYS_DIR = Path(__file__).parent.parent / "data" / "essays"
 
 # Known Pali words/phrases that appear in essays.
@@ -125,6 +123,6 @@ def test_asterisk_pali_words_present() -> None:
         if not essay_path.exists():
             continue
         text = essay_path.read_text(encoding="utf-8")
-        assert f"*{pali_term}*" in text, (
-            f"{filename} should contain *{pali_term}* (italic Pali)"
-        )
+        assert (
+            f"*{pali_term}*" in text
+        ), f"{filename} should contain *{pali_term}* (italic Pali)"

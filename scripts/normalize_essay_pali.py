@@ -94,8 +94,6 @@ def normalize_essay(text: str) -> str:
 
     Handles trailing punctuation inside quotes, e.g. "thina-middha." → *thina-middha*.
     """
-    import re
-
     for term in sorted(KNOWN_PALI_TERMS, key=len, reverse=True):
         # Replace "term" with *term* (exact match)
         quoted = f'"{term}"'

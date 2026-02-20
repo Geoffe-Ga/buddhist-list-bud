@@ -909,9 +909,7 @@ def _replace_list_downstream_with_dhammas(
 
     # Remove the old list-level downstream entry
     parent["downstream"] = [
-        ref
-        for ref in parent["downstream"]
-        if ref.get("ref_slug") != old_list_slug
+        ref for ref in parent["downstream"] if ref.get("ref_slug") != old_list_slug
     ]
 
     # Remove the old upstream entry on the list

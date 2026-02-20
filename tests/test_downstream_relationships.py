@@ -5,7 +5,6 @@ their correct subset of the Noble Eightfold Path, not the entire list.
 Same for right-action/right-speech/right-livelihood → Five Precepts.
 """
 
-import re
 from pathlib import Path
 
 import pandas as pd
@@ -84,30 +83,28 @@ class TestThreeTrainingsToEightfoldPath:
 
         # Should contain all three sila members
         for member in sila_triad:
-            assert member in downstream, (
-                f"ethics should link downstream to {member}"
-            )
+            assert member in downstream, f"ethics should link downstream to {member}"
 
         # Should NOT link to the entire noble-eightfold-path list
-        assert "noble-eightfold-path" not in downstream, (
-            "ethics should NOT link to the entire noble-eightfold-path list"
-        )
+        assert (
+            "noble-eightfold-path" not in downstream
+        ), "ethics should NOT link to the entire noble-eightfold-path list"
 
     def test_concentration_links_to_samadhi_triad(self, parsed_data):
-        """Concentration should link to right-effort, right-mindfulness, right-concentration."""
+        """Concentration links to right-effort, mindfulness, concentration."""
         _, dhammas = parsed_data
         conc = dhammas["concentration"]
         downstream = _downstream_ref_slugs(conc)
         samadhi_triad = {"right-effort", "right-mindfulness", "right-concentration"}
 
         for member in samadhi_triad:
-            assert member in downstream, (
-                f"concentration should link downstream to {member}"
-            )
+            assert (
+                member in downstream
+            ), f"concentration should link downstream to {member}"
 
-        assert "noble-eightfold-path" not in downstream, (
-            "concentration should NOT link to the entire noble-eightfold-path list"
-        )
+        assert (
+            "noble-eightfold-path" not in downstream
+        ), "concentration should NOT link to the entire noble-eightfold-path list"
 
     def test_wisdom_links_to_panna_dyad(self, parsed_data):
         """Wisdom should link to right-view and right-intention only."""
@@ -117,33 +114,31 @@ class TestThreeTrainingsToEightfoldPath:
         panna_dyad = {"right-view", "right-intention"}
 
         for member in panna_dyad:
-            assert member in downstream, (
-                f"wisdom should link downstream to {member}"
-            )
+            assert member in downstream, f"wisdom should link downstream to {member}"
 
-        assert "noble-eightfold-path" not in downstream, (
-            "wisdom should NOT link to the entire noble-eightfold-path list"
-        )
+        assert (
+            "noble-eightfold-path" not in downstream
+        ), "wisdom should NOT link to the entire noble-eightfold-path list"
 
 
 class TestEightfoldPathToFivePrecepts:
     """Eightfold Path members should link to specific Five Precepts subsets."""
 
     def test_right_action_links_to_body_precepts(self, parsed_data):
-        """Right Action should link to non-harming, non-stealing, sexual-responsibility."""
+        """Right Action links to non-harming, non-stealing, sexual-responsibility."""
         _, dhammas = parsed_data
         ra = dhammas["right-action"]
         downstream = _downstream_ref_slugs(ra)
         body_precepts = {"non-harming", "non-stealing", "sexual-responsibility"}
 
         for member in body_precepts:
-            assert member in downstream, (
-                f"right-action should link downstream to {member}"
-            )
+            assert (
+                member in downstream
+            ), f"right-action should link downstream to {member}"
 
-        assert "five-precepts" not in downstream, (
-            "right-action should NOT link to the entire five-precepts list"
-        )
+        assert (
+            "five-precepts" not in downstream
+        ), "right-action should NOT link to the entire five-precepts list"
 
     def test_right_speech_links_to_non_lying(self, parsed_data):
         """Right Speech should link to non-lying."""
@@ -151,13 +146,13 @@ class TestEightfoldPathToFivePrecepts:
         rs = dhammas["right-speech"]
         downstream = _downstream_ref_slugs(rs)
 
-        assert "non-lying" in downstream, (
-            "right-speech should link downstream to non-lying"
-        )
+        assert (
+            "non-lying" in downstream
+        ), "right-speech should link downstream to non-lying"
 
-        assert "five-precepts" not in downstream, (
-            "right-speech should NOT link to the entire five-precepts list"
-        )
+        assert (
+            "five-precepts" not in downstream
+        ), "right-speech should NOT link to the entire five-precepts list"
 
     def test_right_livelihood_no_precept_link(self, parsed_data):
         """Right Livelihood should NOT link to Five Precepts at all.
@@ -170,9 +165,9 @@ class TestEightfoldPathToFivePrecepts:
         rl = dhammas["right-livelihood"]
         downstream = _downstream_ref_slugs(rl)
 
-        assert "five-precepts" not in downstream, (
-            "right-livelihood should NOT link to five-precepts list"
-        )
+        assert (
+            "five-precepts" not in downstream
+        ), "right-livelihood should NOT link to five-precepts list"
         assert "abstinence-from-intoxicants" not in downstream, (
             "right-livelihood should NOT link to abstinence-from-intoxicants "
             "(selling vs. consuming intoxicants are different ethical concerns)"
@@ -186,6 +181,6 @@ class TestEightfoldPathToFivePrecepts:
         ref_types = _downstream_ref_types(ethics)
         for slug in ["right-speech", "right-action", "right-livelihood"]:
             if slug in ref_types:
-                assert ref_types[slug] == "dhamma", (
-                    f"ethics -> {slug} should be ref_type 'dhamma'"
-                )
+                assert (
+                    ref_types[slug] == "dhamma"
+                ), f"ethics -> {slug} should be ref_type 'dhamma'"
