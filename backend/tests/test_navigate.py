@@ -12,14 +12,19 @@ def _get_ids():
     )
     # A list with upstream_from (has left-edge navigation)
     upstream_list = db.lists.find_one({"upstream_from": {"$ne": []}})
+    # A dhamma with dhamma-type downstream refs (e.g. ethics → right-speech)
+    dhamma_with_downstream_dhammas = db.dhammas.find_one(
+        {"downstream.ref_type": "dhamma"}
+    )
     return (
         str(fnt["_id"]),
         str(first_dhamma["_id"]),
         str(upstream_list["_id"]),
+        str(dhamma_with_downstream_dhammas["_id"]),
     )
 
 
-LIST_ID, DHAMMA_ID, UPSTREAM_LIST_ID = _get_ids()
+LIST_ID, DHAMMA_ID, UPSTREAM_LIST_ID, DHAMMA_WITH_DOWNSTREAM_DHAMMAS_ID = _get_ids()
 
 
 @pytest.mark.asyncio
@@ -77,3 +82,15 @@ async def test_navigate_list_with_upstream(client):
     assert data["current"]["type"] == "list"
     assert len(data["left"]) > 0
     assert data["left"][0]["type"] == "dhamma"
+
+
+@pytest.mark.asyncio
+async def test_navigate_dhamma_has_downstream_dhammas(client):
+    """Dhammas with dhamma-type downstream refs should show them on the right."""
+    resp = await client.get(f"/api/navigate/{DHAMMA_WITH_DOWNSTREAM_DHAMMAS_ID}")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["current"]["type"] == "dhamma"
+    # Should have at least one dhamma-type downstream ref on the right
+    dhamma_refs = [r for r in data["right"] if r["type"] == "dhamma"]
+    assert len(dhamma_refs) > 0, "Expected dhamma-type downstream refs on right edge"
