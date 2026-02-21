@@ -244,7 +244,6 @@
   writing-mode: vertical-rl;
   text-orientation: mixed;
   white-space: normal;
-  flex: 1;
   letter-spacing: 0.03em;
   min-width: 3.2rem;
 }
@@ -259,8 +258,7 @@
 }
 
 .nav-btn-vertical .label {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: visible;
 }
 
 
